@@ -1,0 +1,978 @@
+{
+  "meta" : {
+    "view" : {
+      "id" : "3wfv-na5n",
+      "name" : "NYC_Parks_Wi-Fi_8-14-2014",
+      "averageRating" : 0,
+      "createdAt" : 1408050313,
+      "displayType" : "geoRows",
+      "downloadCount" : 20,
+      "indexUpdatedAt" : 1414447559,
+      "newBackend" : false,
+      "numberOfComments" : 0,
+      "oid" : 8651183,
+      "publicationAppendEnabled" : false,
+      "publicationDate" : 1408050314,
+      "publicationGroup" : 1667345,
+      "publicationStage" : "published",
+      "tableId" : 1684276,
+      "totalTimesRated" : 0,
+      "viewCount" : 9,
+      "viewLastModified" : 1409937679,
+      "viewType" : "tabular",
+      "columns" : [ {
+        "id" : -1,
+        "name" : "sid",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":sid",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { }
+      }, {
+        "id" : -1,
+        "name" : "id",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":id",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { }
+      }, {
+        "id" : -1,
+        "name" : "position",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":position",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { }
+      }, {
+        "id" : -1,
+        "name" : "created_at",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":created_at",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { }
+      }, {
+        "id" : -1,
+        "name" : "created_meta",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":created_meta",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { }
+      }, {
+        "id" : -1,
+        "name" : "updated_at",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":updated_at",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { }
+      }, {
+        "id" : -1,
+        "name" : "updated_meta",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":updated_meta",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { }
+      }, {
+        "id" : -1,
+        "name" : "meta",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":meta",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { }
+      }, {
+        "id" : 162094780,
+        "name" : "Boro",
+        "dataTypeName" : "text",
+        "fieldName" : "boro",
+        "position" : 1,
+        "renderTypeName" : "text",
+        "tableColumnId" : 21114377,
+        "cachedContents" : {
+          "non_null" : 309,
+          "smallest" : "BK",
+          "null" : 0,
+          "largest" : "SI",
+          "top" : [ {
+            "count" : 20,
+            "item" : "SI"
+          }, {
+            "count" : 19,
+            "item" : "BK"
+          }, {
+            "count" : 18,
+            "item" : "QU"
+          }, {
+            "count" : 17,
+            "item" : "MN"
+          }, {
+            "count" : 16,
+            "item" : "BX"
+          } ]
+        },
+        "format" : { }
+      }, {
+        "id" : 162094779,
+        "name" : "OBJECTID",
+        "dataTypeName" : "number",
+        "fieldName" : "objectid",
+        "position" : 1,
+        "renderTypeName" : "number",
+        "tableColumnId" : 21414119,
+        "cachedContents" : {
+          "non_null" : 309,
+          "smallest" : "1",
+          "sum" : "51849",
+          "null" : 0,
+          "average" : "167.7961165048544",
+          "largest" : "330",
+          "top" : [ {
+            "count" : 20,
+            "item" : "309"
+          }, {
+            "count" : 19,
+            "item" : "310"
+          }, {
+            "count" : 18,
+            "item" : "311"
+          }, {
+            "count" : 17,
+            "item" : "312"
+          }, {
+            "count" : 16,
+            "item" : "313"
+          }, {
+            "count" : 15,
+            "item" : "314"
+          }, {
+            "count" : 14,
+            "item" : "315"
+          }, {
+            "count" : 13,
+            "item" : "316"
+          }, {
+            "count" : 12,
+            "item" : "317"
+          }, {
+            "count" : 11,
+            "item" : "318"
+          }, {
+            "count" : 10,
+            "item" : "319"
+          }, {
+            "count" : 9,
+            "item" : "320"
+          }, {
+            "count" : 8,
+            "item" : "321"
+          }, {
+            "count" : 7,
+            "item" : "322"
+          }, {
+            "count" : 6,
+            "item" : "323"
+          }, {
+            "count" : 5,
+            "item" : "324"
+          }, {
+            "count" : 4,
+            "item" : "325"
+          }, {
+            "count" : 3,
+            "item" : "326"
+          }, {
+            "count" : 2,
+            "item" : "327"
+          }, {
+            "count" : 1,
+            "item" : "328"
+          } ]
+        },
+        "format" : { }
+      }, {
+        "id" : 162094781,
+        "name" : "Type",
+        "dataTypeName" : "text",
+        "fieldName" : "type",
+        "position" : 2,
+        "renderTypeName" : "text",
+        "tableColumnId" : 21114378,
+        "cachedContents" : {
+          "non_null" : 309,
+          "smallest" : "Limited Free",
+          "null" : 0,
+          "largest" : "Partner Site",
+          "top" : [ {
+            "count" : 20,
+            "item" : "Limited Free"
+          }, {
+            "count" : 19,
+            "item" : "Partner Site"
+          } ]
+        },
+        "format" : { }
+      }, {
+        "id" : 162094782,
+        "name" : "Provider",
+        "dataTypeName" : "text",
+        "fieldName" : "provider",
+        "position" : 3,
+        "renderTypeName" : "text",
+        "tableColumnId" : 21114379,
+        "cachedContents" : {
+          "non_null" : 309,
+          "smallest" : "Cablevision",
+          "null" : 0,
+          "largest" : "TimeWarner",
+          "top" : [ {
+            "count" : 20,
+            "item" : "TimeWarner"
+          }, {
+            "count" : 19,
+            "item" : "Cablevision"
+          }, {
+            "count" : 18,
+            "item" : "Partner"
+          } ]
+        },
+        "format" : { }
+      }, {
+        "id" : 162094783,
+        "name" : "Park_Wifi",
+        "dataTypeName" : "text",
+        "fieldName" : "park_wifi",
+        "position" : 4,
+        "renderTypeName" : "text",
+        "tableColumnId" : 21114380,
+        "cachedContents" : {
+          "non_null" : 309,
+          "smallest" : "Baisley Pond Park",
+          "null" : 0,
+          "largest" : "Wolfe's Pond Park",
+          "top" : [ {
+            "count" : 20,
+            "item" : "Wolfe's Pond Park"
+          }, {
+            "count" : 19,
+            "item" : "Blood Root Valley"
+          }, {
+            "count" : 18,
+            "item" : "Clove Lakes Park"
+          }, {
+            "count" : 17,
+            "item" : "Snug Harbor Cultural Center"
+          }, {
+            "count" : 16,
+            "item" : "Franklin D. Roosevelt Boardwalk and Beach"
+          }, {
+            "count" : 15,
+            "item" : "Franklin D. Roosevelt Boardwalk And Beach"
+          }, {
+            "count" : 14,
+            "item" : "Manhattan Beach Park"
+          }, {
+            "count" : 13,
+            "item" : "McKinley Park"
+          }, {
+            "count" : 12,
+            "item" : "Coffey Park"
+          }, {
+            "count" : 11,
+            "item" : "Red Hook Recreation Area"
+          }, {
+            "count" : 10,
+            "item" : "Tony Dapolto Recreation Center"
+          }, {
+            "count" : 9,
+            "item" : "Chelsea Recreation Center"
+          }, {
+            "count" : 8,
+            "item" : "Madison Square Park"
+          }, {
+            "count" : 7,
+            "item" : "Steeplechase Park"
+          }, {
+            "count" : 6,
+            "item" : "Gravesend Park"
+          }, {
+            "count" : 5,
+            "item" : "Bryant Park"
+          }, {
+            "count" : 4,
+            "item" : "Hamilton Fish Park"
+          }, {
+            "count" : 3,
+            "item" : "Hansborough Recreation Center"
+          }, {
+            "count" : 2,
+            "item" : "Marine Park"
+          }, {
+            "count" : 1,
+            "item" : "St. Mary's Park"
+          } ]
+        },
+        "format" : { }
+      }, {
+        "id" : 162094784,
+        "name" : "Location",
+        "dataTypeName" : "text",
+        "fieldName" : "location",
+        "position" : 5,
+        "renderTypeName" : "text",
+        "tableColumnId" : 21114381,
+        "cachedContents" : {
+          "non_null" : 309,
+          "smallest" : "3000-3098 W 10th St",
+          "null" : 0,
+          "largest" : "Workout Room",
+          "top" : [ {
+            "count" : 20,
+            "item" : "Playground"
+          }, {
+            "count" : 19,
+            "item" : "Lobby"
+          }, {
+            "count" : 18,
+            "item" : "Park seating area"
+          }, {
+            "count" : 17,
+            "item" : "Near Parking Lot and Tennis Courts"
+          }, {
+            "count" : 16,
+            "item" : "Center Office"
+          }, {
+            "count" : 15,
+            "item" : "Gymnasium"
+          }, {
+            "count" : 14,
+            "item" : "Maintenance Office"
+          }, {
+            "count" : 13,
+            "item" : "Dugout"
+          }, {
+            "count" : 12,
+            "item" : "Administrative Office"
+          }, {
+            "count" : 11,
+            "item" : "Library"
+          }, {
+            "count" : 10,
+            "item" : "Multi Purpose Room"
+          } ]
+        },
+        "format" : { }
+      }, {
+        "id" : 162094785,
+        "name" : "Lat",
+        "dataTypeName" : "number",
+        "fieldName" : "lat",
+        "position" : 6,
+        "renderTypeName" : "number",
+        "tableColumnId" : 21114382,
+        "cachedContents" : {
+          "non_null" : 309,
+          "smallest" : "40.5169999996000029796050512231886386871337890625",
+          "sum" : "12568.28761513119992798692692304030060768127441406250",
+          "null" : 0,
+          "average" : "40.67406995188091",
+          "largest" : "40.88880000040000339822654495947062969207763671875",
+          "top" : [ {
+            "count" : 20,
+            "item" : "40.812913000099996452263440005481243133544921875"
+          }, {
+            "count" : 19,
+            "item" : "40.60237000000000051613824325613677501678466796875"
+          }, {
+            "count" : 18,
+            "item" : "40.60248199990000017578495317138731479644775390625"
+          }, {
+            "count" : 17,
+            "item" : "40.60254799959999871816762606613337993621826171875"
+          }, {
+            "count" : 16,
+            "item" : "40.73179199989999688114039599895477294921875"
+          }, {
+            "count" : 15,
+            "item" : "40.715005000399997925342177040874958038330078125"
+          }, {
+            "count" : 14,
+            "item" : "40.67369499979999858396695344708859920501708984375"
+          }, {
+            "count" : 13,
+            "item" : "40.82480739959999738175611128099262714385986328125"
+          }, {
+            "count" : 12,
+            "item" : "40.75000200000000205591277335770428180694580078125"
+          } ]
+        },
+        "format" : { }
+      }, {
+        "id" : 162094786,
+        "name" : "Long_",
+        "dataTypeName" : "number",
+        "fieldName" : "long_",
+        "position" : 7,
+        "renderTypeName" : "number",
+        "tableColumnId" : 21414126,
+        "cachedContents" : {
+          "non_null" : 309,
+          "smallest" : "-74.191000000499997213410097174346446990966796875",
+          "sum" : "-22842.3927181892000106699924799613654613494873046875",
+          "null" : 0,
+          "average" : "-73.92360102973851",
+          "largest" : "-73.7513000004999952352591208182275295257568359375",
+          "top" : [ {
+            "count" : 20,
+            "item" : "-73.93920300060000272424076683819293975830078125"
+          }, {
+            "count" : 19,
+            "item" : "-73.7514419994000007818613084964454174041748046875"
+          }, {
+            "count" : 18,
+            "item" : "-73.751332000100006780485273338854312896728515625"
+          }, {
+            "count" : 17,
+            "item" : "-73.7513000004999952352591208182275295257568359375"
+          }, {
+            "count" : 16,
+            "item" : "-73.865528000099999417216167785227298736572265625"
+          }, {
+            "count" : 15,
+            "item" : "-73.9603810002000017220780136995017528533935546875"
+          }, {
+            "count" : 14,
+            "item" : "-73.934934999700004709666245616972446441650390625"
+          }, {
+            "count" : 13,
+            "item" : "-73.94232443990000547273666597902774810791015625"
+          }, {
+            "count" : 12,
+            "item" : "-73.9500000002999939852088573388755321502685546875"
+          } ]
+        },
+        "format" : { }
+      }, {
+        "id" : 162094787,
+        "name" : "X",
+        "dataTypeName" : "number",
+        "fieldName" : "x",
+        "position" : 8,
+        "renderTypeName" : "number",
+        "tableColumnId" : 21414127,
+        "cachedContents" : {
+          "non_null" : 309,
+          "smallest" : "931144.268929000012576580047607421875",
+          "sum" : "310677740.596984000760130584239959716796875",
+          "null" : 0,
+          "average" : "1005429.581220013",
+          "largest" : "1053310.4507800000719726085662841796875",
+          "top" : [ {
+            "count" : 20,
+            "item" : "1001079.289160000043921172618865966796875"
+          }, {
+            "count" : 19,
+            "item" : "1053271.20381000009365379810333251953125"
+          }, {
+            "count" : 18,
+            "item" : "1053301.6332100001163780689239501953125"
+          }, {
+            "count" : 17,
+            "item" : "1053310.4507800000719726085662841796875"
+          }, {
+            "count" : 16,
+            "item" : "1021518.71186999999918043613433837890625"
+          }, {
+            "count" : 15,
+            "item" : "995233.116144999978132545948028564453125"
+          }, {
+            "count" : 14,
+            "item" : "1002298.394010000047273933887481689453125"
+          }, {
+            "count" : 13,
+            "item" : "1000212.386700000031851232051849365234375"
+          }, {
+            "count" : 12,
+            "item" : "998103.642227999982424080371856689453125"
+          } ]
+        },
+        "format" : { }
+      }, {
+        "id" : 162094788,
+        "name" : "Y",
+        "dataTypeName" : "number",
+        "fieldName" : "y",
+        "position" : 9,
+        "renderTypeName" : "number",
+        "tableColumnId" : 21414128,
+        "cachedContents" : {
+          "non_null" : 309,
+          "smallest" : "127691.13968100000056438148021697998046875",
+          "sum" : "57129883.920654999936232343316078186035156250",
+          "null" : 0,
+          "average" : "184886.3557302751",
+          "largest" : "263132.1030499999760650098323822021484375",
+          "top" : [ {
+            "count" : 20,
+            "item" : "235449.0675369999953545629978179931640625"
+          }, {
+            "count" : 19,
+            "item" : "158833.95633200000156648457050323486328125"
+          }, {
+            "count" : 18,
+            "item" : "158874.8473269999958574771881103515625"
+          }, {
+            "count" : 17,
+            "item" : "158898.9178160000010393559932708740234375"
+          }, {
+            "count" : 16,
+            "item" : "205916.74011899999459274113178253173828125"
+          }, {
+            "count" : 15,
+            "item" : "199774.595907000009901821613311767578125"
+          }, {
+            "count" : 14,
+            "item" : "184728.3638609999907203018665313720703125"
+          }, {
+            "count" : 13,
+            "item" : "239782.04115500001353211700916290283203125"
+          }, {
+            "count" : 12,
+            "item" : "212526.569091000012122094631195068359375"
+          } ]
+        },
+        "format" : { }
+      }, {
+        "id" : 162094789,
+        "name" : "Location_T",
+        "dataTypeName" : "text",
+        "fieldName" : "location_t",
+        "position" : 10,
+        "renderTypeName" : "text",
+        "tableColumnId" : 21414129,
+        "cachedContents" : {
+          "non_null" : 309,
+          "smallest" : "",
+          "null" : 0,
+          "largest" : "",
+          "top" : [ {
+            "count" : 20,
+            "item" : ""
+          } ]
+        },
+        "format" : { }
+      }, {
+        "id" : 162094790,
+        "name" : "Remarks",
+        "dataTypeName" : "text",
+        "fieldName" : "remarks",
+        "position" : 11,
+        "renderTypeName" : "text",
+        "tableColumnId" : 21414130,
+        "cachedContents" : {
+          "non_null" : 309,
+          "smallest" : "",
+          "null" : 0,
+          "largest" : "",
+          "top" : [ {
+            "count" : 20,
+            "item" : ""
+          } ]
+        },
+        "format" : { }
+      }, {
+        "id" : 162094791,
+        "name" : "City",
+        "dataTypeName" : "text",
+        "fieldName" : "city",
+        "position" : 12,
+        "renderTypeName" : "text",
+        "tableColumnId" : 21414131,
+        "cachedContents" : {
+          "non_null" : 309,
+          "smallest" : "Bronx",
+          "null" : 0,
+          "largest" : "Staten Island",
+          "top" : [ {
+            "count" : 20,
+            "item" : "Staten Island"
+          }, {
+            "count" : 19,
+            "item" : "Brooklyn"
+          }, {
+            "count" : 18,
+            "item" : "Queens"
+          }, {
+            "count" : 17,
+            "item" : "New York"
+          }, {
+            "count" : 16,
+            "item" : "Bronx"
+          } ]
+        },
+        "format" : { }
+      }, {
+        "id" : 162094792,
+        "name" : "Zip",
+        "dataTypeName" : "text",
+        "fieldName" : "zip",
+        "position" : 13,
+        "renderTypeName" : "text",
+        "tableColumnId" : 21414132,
+        "cachedContents" : {
+          "non_null" : 309,
+          "smallest" : "",
+          "null" : 0,
+          "largest" : "",
+          "top" : [ {
+            "count" : 20,
+            "item" : ""
+          } ]
+        },
+        "format" : { }
+      } ],
+      "grants" : [ {
+        "inherited" : false,
+        "type" : "viewer",
+        "flags" : [ "public" ]
+      } ],
+      "metadata" : {
+        "custom_fields" : {
+          "Dataset Information" : {
+            "Agency" : "Other"
+          }
+        }
+      },
+      "owner" : {
+        "id" : "5fuc-pqz2",
+        "displayName" : "NYC OpenData",
+        "roleName" : "administrator",
+        "screenName" : "NYC OpenData",
+        "rights" : [ "create_datasets", "edit_others_datasets", "edit_sdp", "edit_site_theme", "moderate_comments", "manage_users", "chown_datasets", "edit_nominations", "approve_nominations", "feature_items", "federations", "manage_stories", "manage_approval", "change_configurations", "view_domain", "view_others_datasets", "edit_pages", "create_pages", "short_session", "view_goals", "view_dashboards", "edit_goals", "edit_dashboards", "create_dashboards" ]
+      },
+      "query" : { },
+      "rights" : [ "read" ],
+      "tableAuthor" : {
+        "id" : "5fuc-pqz2",
+        "displayName" : "NYC OpenData",
+        "roleName" : "administrator",
+        "screenName" : "NYC OpenData",
+        "rights" : [ "create_datasets", "edit_others_datasets", "edit_sdp", "edit_site_theme", "moderate_comments", "manage_users", "chown_datasets", "edit_nominations", "approve_nominations", "feature_items", "federations", "manage_stories", "manage_approval", "change_configurations", "view_domain", "view_others_datasets", "edit_pages", "create_pages", "short_session", "view_goals", "view_dashboards", "edit_goals", "edit_dashboards", "create_dashboards" ]
+      },
+      "flags" : [ "default" ]
+    }
+  },
+  "data" : [ [ 1, "geo_wus9-98d5-1.1", null, null, null, null, null, null, "SI", "1", "Limited Free", "TimeWarner", "Wolfe's Pond Park", "Back of the Comfort Station", "40.517299999599998727717320434749126434326171875", "-74.191000000499997213410097174346446990966796875", "931144.268929000012576580047607421875", "127800.859933999992790631949901580810546875", "", "", "Staten Island", "" ]
+, [ 2, "geo_wus9-98d5-1.2", null, null, null, null, null, null, "SI", "2", "Limited Free", "TimeWarner", "Wolfe's Pond Park", "Southwestern corner of the South Parking Lot", "40.5169999996000029796050512231886386871337890625", "-74.1903000001999970436372677795588970184326171875", "931338.65961700002662837505340576171875", "127691.13968100000056438148021697998046875", "", "", "Staten Island", "" ]
+, [ 3, "geo_wus9-98d5-1.3", null, null, null, null, null, null, "SI", "3", "Limited Free", "TimeWarner", "Wolfe's Pond Park", "Near the Chester Avenue Entrance to the South Parking Lot", "40.5182000002999984644702635705471038818359375", "-74.189800000199994656213675625622272491455078125", "931478.62751300004310905933380126953125", "128128.02496199999586679041385650634765625", "", "", "Staten Island", "" ]
+, [ 4, "geo_wus9-98d5-1.4", null, null, null, null, null, null, "SI", "4", "Limited Free", "TimeWarner", "Wolfe's Pond Park", "Beach Side of the South Parking Lot", "40.5171000002000027961912564933300018310546875", "-74.1897999993999945900213788263499736785888671875", "931477.759404000011272728443145751953125", "127727.27051400000345893204212188720703125", "", "", "Staten Island", "" ]
+, [ 5, "geo_wus9-98d5-1.5", null, null, null, null, null, null, "SI", "5", "Limited Free", "TimeWarner", "Wolfe's Pond Park", "North Parking Lot", "40.51920000039999791852096677757799625396728515625", "-74.188200000199998385141952894628047943115234375", "931924.2683540000580251216888427734375", "128491.387424000000464729964733123779296875", "", "", "Staten Island", "" ]
+, [ 6, "geo_wus9-98d5-1.6", null, null, null, null, null, null, "SI", "6", "Limited Free", "TimeWarner", "Blood Root Valley", "Front of building", "40.59194999959999705652080592699348926544189453125", "-74.1392200000999963549475069157779216766357421875", "945584.414917999994941055774688720703125", "154970.486040999996475875377655029296875", "", "", "Staten Island", "" ]
+, [ 7, "geo_wus9-98d5-1.7", null, null, null, null, null, null, "SI", "7", "Limited Free", "TimeWarner", "Blood Root Valley", "Parking Lot behind building closest to soccer field", "40.59189999969999718132385169155895709991455078125", "-74.1392000002999935759362415410578250885009765625", "945589.94049700000323355197906494140625", "154952.26101200000266544520854949951171875", "", "", "Staten Island", "" ]
+, [ 8, "geo_wus9-98d5-1.8", null, null, null, null, null, null, "SI", "8", "Limited Free", "TimeWarner", "Blood Root Valley", "First Floor", "40.59189999990000075058560469187796115875244140625", "-74.138500000400000544686918146908283233642578125", "945784.351525999954901635646820068359375", "154951.9529409999959170818328857421875", "", "", "Staten Island", "" ]
+, [ 9, "geo_wus9-98d5-1.9", null, null, null, null, null, null, "SI", "9", "Limited Free", "TimeWarner", "Blood Root Valley", "Second Floor", "40.592030000400001199523103423416614532470703125", "-74.13811999969999533277587033808231353759765625", "945889.963847000035457313060760498046875", "154999.148713000002317130565643310546875", "", "", "Staten Island", "" ]
+, [ 10, "geo_wus9-98d5-1.10", null, null, null, null, null, null, "SI", "10", "Limited Free", "TimeWarner", "Blood Root Valley", "Parking Lot behind building closest to soccer field", "40.592000000100000534075661562383174896240234375", "-74.1380999994999996260958141647279262542724609375", "945895.501237999997101724147796630859375", "154988.21008700001402758061885833740234375", "", "", "Staten Island", "" ]
+, [ 11, "geo_wus9-98d5-1.11", null, null, null, null, null, null, "SI", "11", "Limited Free", "TimeWarner", "Barrett Park", "Near Main Entrance", "40.626099999600000955979339778423309326171875", "-74.114699999799995566718280315399169921875", "952410.64404799998737871646881103515625", "167402.3365050000138580799102783203125", "", "", "Staten Island", "" ]
+, [ 12, "geo_wus9-98d5-1.12", null, null, null, null, null, null, "SI", "12", "Limited Free", "TimeWarner", "Barrett Park", "Benches at Southeast corner in the park", "40.6246999995999971133642247878015041351318359375", "-74.1144000004999981001674314029514789581298828125", "952493.254119000048376619815826416015625", "166892.1708590000052936375141143798828125", "", "", "Staten Island", "" ]
+, [ 13, "geo_wus9-98d5-1.13", null, null, null, null, null, null, "SI", "13", "Limited Free", "TimeWarner", "Barrett Park", "Southeast Corner of the Park, in front of YMCA", "40.62470000030000250035300268791615962982177734375", "-74.11419999989999496392556466162204742431640625", "952548.773035999969579279422760009765625", "166892.0986799999955110251903533935546875", "", "", "Staten Island", "" ]
+, [ 14, "geo_wus9-98d5-1.14", null, null, null, null, null, null, "SI", "14", "Limited Free", "TimeWarner", "Clove Lakes Park", "Park Building South Hallway", "40.61797999990000107572996057569980621337890625", "-74.1082149998999994977566529996693134307861328125", "954207.147344000055454671382904052734375", "164441.71775400001206435263156890869140625", "", "", "Staten Island", "" ]
+, [ 15, "geo_wus9-98d5-1.15", null, null, null, null, null, null, "SI", "15", "Limited Free", "TimeWarner", "Clove Lakes Park", "Near Lakehouse Restaurant", "40.618000000199998567040893249213695526123046875", "-74.1082000002000000904445187188684940338134765625", "954211.320564000052399933338165283203125", "164448.99923600000329315662384033203125", "", "", "Staten Island", "" ]
+, [ 16, "geo_wus9-98d5-1.16", null, null, null, null, null, null, "SI", "17", "Limited Free", "TimeWarner", "Clove Lakes Park", "Park Building Main Lobby", "40.61897700040000103172133094631135463714599609375", "-74.1071699998000070763737312518060207366943359375", "954497.706474000005982816219329833984375", "164804.5943250000127591192722320556640625", "", "", "Staten Island", "" ]
+, [ 17, "geo_wus9-98d5-1.17", null, null, null, null, null, null, "SI", "18", "Limited Free", "TimeWarner", "Clove Lakes Park", "Lakehouse Restaurant", "40.61939999989999705576337873935699462890625", "-74.1070999996999972836420056410133838653564453125", "954517.3281539999879896640777587890625", "164958.68030300000100396573543548583984375", "", "", "Staten Island", "" ]
+, [ 18, "geo_wus9-98d5-1.18", null, null, null, null, null, null, "SI", "19", "Limited Free", "TimeWarner", "Clove Lakes Park", "Park Building Main Hallway", "40.61899999959999973953017615713179111480712890625", "-74.1069999996000063902101828716695308685302734375", "954544.91176100005395710468292236328125", "164812.91583099999115802347660064697265625", "", "", "Staten Island", "" ]
+, [ 19, "geo_wus9-98d5-1.19", null, null, null, null, null, null, "SI", "20", "Limited Free", "TimeWarner", "Snug Harbor Cultural Center", "North Entrance of Randall Garden", "40.6454999998999966237533953972160816192626953125", "-74.1033999993999970001823385246098041534423828125", "955555.73126100003719329833984375", "174466.3699490000144578516483306884765625", "", "", "Staten Island", "" ]
+, [ 20, "geo_wus9-98d5-1.20", null, null, null, null, null, null, "SI", "21", "Limited Free", "TimeWarner", "Snug Harbor Cultural Center", "North Entrance of Randall Garden", "40.64540000000000219415596802718937397003173828125", "-74.1029000001000071051748818717896938323974609375", "955694.441941999946720898151397705078125", "174429.77389400001266039907932281494140625", "", "", "Staten Island", "" ]
+, [ 21, "geo_wus9-98d5-1.21", null, null, null, null, null, null, "SI", "22", "Limited Free", "TimeWarner", "Snug Harbor Cultural Center", "Snug Harbor Dock", "40.6452999995999988414041581563651561737060546875", "-74.102299999400003116534207947552204132080078125", "955860.9042070000432431697845458984375", "174393.1460139999981038272380828857421875", "", "", "Staten Island", "" ]
+, [ 22, "geo_wus9-98d5-1.22", null, null, null, null, null, null, "SI", "23", "Limited Free", "TimeWarner", "Snug Harbor Cultural Center", "Snug Harbor Dock", "40.64509999980000287678194581530988216400146484375", "-74.10169999949999919408583082258701324462890625", "956027.324478000053204596042633056640625", "174320.08677699998952448368072509765625", "", "", "Staten Island", "" ]
+, [ 23, "geo_wus9-98d5-1.23", null, null, null, null, null, null, "SI", "24", "Limited Free", "TimeWarner", "Snug Harbor Cultural Center", "Neptune Fountain", "40.64490000050000162445940077304840087890625", "-74.101099999599995271637453697621822357177734375", "956193.745732999988831579685211181640625", "174247.02885199998854659497737884521484375", "", "", "Staten Island", "" ]
+, [ 24, "geo_wus9-98d5-1.24", null, null, null, null, null, null, "SI", "25", "Limited Free", "TimeWarner", "Snug Harbor Cultural Center", "Neptune Fountain", "40.64469999970000202438313863240182399749755859375", "-74.1002999995999971361015923321247100830078125", "956415.67015799996443092823028564453125", "174173.90793600000324659049510955810546875", "", "", "Staten Island", "" ]
+, [ 25, "geo_wus9-98d5-1.25", null, null, null, null, null, null, "SI", "26", "Limited Free", "TimeWarner", "Franklin D. Roosevelt Boardwalk and Beach", "Near Greeley Avenue Baseball Diamond", "40.5683999999999969077180139720439910888671875", "-74.0907999998999997615101165138185024261474609375", "959023.206938000046648085117340087890625", "146372.98256599999149329960346221923828125", "", "", "Staten Island", "" ]
+, [ 26, "geo_wus9-98d5-1.26", null, null, null, null, null, null, "SI", "27", "Limited Free", "TimeWarner", "Franklin D. Roosevelt Boardwalk and Beach", "Near Midland Beach Veterans Memorial", "40.569400000000001682565198279917240142822265625", "-74.0895000004999957354812067933380603790283203125", "959384.755426999996416270732879638671875", "146736.935250999988056719303131103515625", "", "", "Staten Island", "" ]
+, [ 27, "geo_wus9-98d5-1.27", null, null, null, null, null, null, "SI", "28", "Limited Free", "TimeWarner", "Franklin D. Roosevelt Boardwalk and Beach", "On the Boardwalk Near Midland Avenue Baseball Diamond", "40.5701999999999998181010596454143524169921875", "-74.088499999800006889927317388355731964111328125", "959662.873966000042855739593505859375", "147028.11248999999952502548694610595703125", "", "", "Staten Island", "" ]
+, [ 28, "geo_wus9-98d5-1.28", null, null, null, null, null, null, "SI", "29", "Limited Free", "TimeWarner", "Franklin D. Roosevelt Boardwalk and Beach", "Near Mapleton Avenue Baseball Diamond", "40.5713000001999972710109432227909564971923828125", "-74.0872999996000061173617723397910594940185546875", "959996.658075000043027102947235107421875", "147428.53491700001177377998828887939453125", "", "", "Staten Island", "" ]
+, [ 29, "geo_wus9-98d5-1.29", null, null, null, null, null, null, "SI", "30", "Limited Free", "TimeWarner", "Franklin D. Roosevelt Boardwalk and Beach", "Near the Hunter Avenue Parking Lot", "40.572299999899996691965498030185699462890625", "-74.08600000010000030670198611915111541748046875", "960358.176380999968387186527252197265625", "147792.50203699999838136136531829833984375", "", "", "Staten Island", "" ]
+, [ 30, "geo_wus9-98d5-1.30", null, null, null, null, null, null, "SI", "31", "Limited Free", "TimeWarner", "Franklin D. Roosevelt Boardwalk and Beach", "On the Boardwalk Near Jefferson Avenue", "40.57330000030000149990883073769509792327880859375", "-74.084400000399995178668177686631679534912109375", "960803.026212999946437776088714599609375", "148156.39435399998910725116729736328125", "", "", "Staten Island", "" ]
+, [ 31, "geo_wus9-98d5-1.31", null, null, null, null, null, null, "SI", "32", "Limited Free", "TimeWarner", "Franklin D. Roosevelt Boardwalk and Beach", "On the Beach Near the Soccer Field", "40.57469999999999998863131622783839702606201171875", "-74.0816999997999943161630653776228427886962890625", "961553.582782999961636960506439208984375", "148665.7374950000084936618804931640625", "", "", "Staten Island", "" ]
+, [ 32, "geo_wus9-98d5-1.32", null, null, null, null, null, null, "SI", "33", "Limited Free", "TimeWarner", "Franklin D. Roosevelt Boardwalk and Beach", "On the Beach Near the Soccer Field", "40.5757000002000012273128959350287914276123046875", "-74.0806999994999983982779667712748050689697265625", "961831.720349999959580600261688232421875", "149029.8046810000087134540081024169921875", "", "", "Staten Island", "" ]
+, [ 33, "geo_wus9-98d5-1.33", null, null, null, null, null, null, "SI", "34", "Limited Free", "TimeWarner", "Franklin D. Roosevelt Boardwalk And Beach", "On the Boardwalk Near the Soccer Field", "40.5757000002000012273128959350287914276123046875", "-74.0806999994999983982779667712748050689697265625", "961831.720349999959580600261688232421875", "149029.8046810000087134540081024169921875", "", "", "Staten Island", "" ]
+, [ 34, "geo_wus9-98d5-1.34", null, null, null, null, null, null, "BK", "35", "Limited Free", "Cablevision", "Manhattan Beach Park", "Park seating area", "40.5765000004000029321105103008449077606201171875", "-74.07959999979999565766775049269199371337890625", "962137.56258599995635449886322021484375", "149320.9848730000085197389125823974609375", "", "", "Brooklyn", "" ]
+, [ 35, "geo_wus9-98d5-1.35", null, null, null, null, null, null, "SI", "36", "Limited Free", "TimeWarner", "Franklin D. Roosevelt Boardwalk and Beach", "On the Boardwalk Near Naughton Avenue", "40.5770999997999979314045049250125885009765625", "-74.07859999949999973978265188634395599365234375", "962415.5531709999777376651763916015625", "149539.32859600000665523111820220947265625", "", "", "Staten Island", "" ]
+, [ 36, "geo_wus9-98d5-1.36", null, null, null, null, null, null, "SI", "37", "Limited Free", "TimeWarner", "Franklin D. Roosevelt Boardwalk And Beach", "On the Boardwalk near Buel Avenue", "40.57769999989999831768727744929492473602294921875", "-74.077899999999999636202119290828704833984375", "962610.201731999986805021762847900390625", "149757.7497469999943859875202178955078125", "", "", "Staten Island", "" ]
+, [ 37, "geo_wus9-98d5-1.37", null, null, null, null, null, null, "SI", "38", "Limited Free", "TimeWarner", "Tappen Park", "Behind Edgewater Village Hall", "40.62710000039999869159146328456699848175048828125", "-74.0772999997000027860849513672292232513427734375", "962792.757469999953173100948333740234375", "167755.28560199998901225626468658447265625", "", "", "Staten Island", "" ]
+, [ 38, "geo_wus9-98d5-1.38", null, null, null, null, null, null, "SI", "39", "Limited Free", "TimeWarner", "Franklin D. Roosevelt Boardwalk And Beach", "On the Beach Near the Seaview Avenue Entrance", "40.57850000010000002248489181511104106903076171875", "-74.0768000000000057525539887137711048126220703125", "962916.02559600002132356166839599609375", "150048.93978200000128708779811859130859375", "", "", "Staten Island", "" ]
+, [ 39, "geo_wus9-98d5-1.39", null, null, null, null, null, null, "SI", "40", "Limited Free", "TimeWarner", "Franklin D. Roosevelt Boardwalk And Beach", "South Parking Lot Near Seaview Avenue", "40.57970000040000257968131336383521556854248046875", "-74.076399999599999546262552030384540557861328125", "963027.52143600000999867916107177734375", "150486.03241099999286234378814697265625", "", "", "Staten Island", "" ]
+, [ 40, "geo_wus9-98d5-1.40", null, null, null, null, null, null, "SI", "41", "Limited Free", "TimeWarner", "Tappen Park", "Fountain", "40.6265999996000033434029319323599338531494140625", "-74.076200000000000045474735088646411895751953125", "963097.941241999971680343151092529296875", "167572.8545370000065304338932037353515625", "", "", "Staten Island", "" ]
+, [ 41, "geo_wus9-98d5-1.41", null, null, null, null, null, null, "SI", "42", "Limited Free", "TimeWarner", "Franklin D. Roosevelt Boardwalk And Beach", "North Parking Lot Near Seaview Avenue", "40.58000000039999832779358257539570331573486328125", "-74.075799999899999193075927905738353729248046875", "963194.284554000012576580047607421875", "150595.18507999999565072357654571533203125", "", "", "Staten Island", "" ]
+, [ 42, "geo_wus9-98d5-1.42", null, null, null, null, null, null, "SI", "43", "Limited Free", "TimeWarner", "Tappen Park", "Fountain", "40.62710000039999869159146328456699848175048828125", "-74.0758000000000009777068044058978557586669921875", "963209.133277000044472515583038330078125", "167754.92175800001132301986217498779296875", "", "", "Staten Island", "" ]
+, [ 43, "geo_wus9-98d5-1.43", null, null, null, null, null, null, "SI", "44", "Limited Free", "TimeWarner", "Franklin D. Roosevelt Boardwalk And Beach", "Near South Fin Grill", "40.5882000001000022848529624752700328826904296875", "-74.0674999998999936678956146351993083953857421875", "965502.159203000017441809177398681640625", "153580.76375499999267049133777618408203125", "", "", "Staten Island", "" ]
+, [ 44, "geo_wus9-98d5-1.44", null, null, null, null, null, null, "BK", "45", "Limited Free", "TimeWarner", "McKinley Park", "Near the Baseball Field at 77th Street", "40.6250000001000017846308765001595020294189453125", "-74.017899999799993793203611858189105987548828125", "979281.0896499999798834323883056640625", "166981.23990600000252015888690948486328125", "", "", "Brooklyn", "" ]
+, [ 45, "geo_wus9-98d5-1.45", null, null, null, null, null, null, "BK", "46", "Limited Free", "TimeWarner", "McKinley Park", "Near the Tennis Courts", "40.6253000001999993173740222118794918060302734375", "-74.0173000002999970092787407338619232177734375", "979447.6667450000531971454620361328125", "167090.50445199999376200139522552490234375", "", "", "Brooklyn", "" ]
+, [ 46, "geo_wus9-98d5-1.46", null, null, null, null, null, null, "BK", "47", "Limited Free", "TimeWarner", "McKinley Park", "Near the Comfort Station", "40.6266000000999980557025992311537265777587890625", "-74.0168000004999981911169015802443027496337890625", "979586.553277999977581202983856201171875", "167564.101930000004358589649200439453125", "", "", "Brooklyn", "" ]
+, [ 47, "geo_wus9-98d5-1.47", null, null, null, null, null, null, "BK", "48", "Limited Free", "TimeWarner", "McKinley Park", "Near the Basketball Courts at Bay Ridge Parkway", "40.6259000001000032398223993368446826934814453125", "-74.016500000299998873742879368364810943603515625", "979669.781130000017583370208740234375", "167309.0574919999926351010799407958984375", "", "", "Brooklyn", "" ]
+, [ 48, "geo_wus9-98d5-1.48", null, null, null, null, null, null, "BK", "49", "Limited Free", "TimeWarner", "McKinley Park", "Near the 73rd Street Entrance", "40.62640000039999677028390578925609588623046875", "-74.01580000059999520090059377253055572509765625", "979864.126214000047184526920318603515625", "167491.18508100000326521694660186767578125", "", "", "Brooklyn", "" ]
+, [ 49, "geo_wus9-98d5-1.49", null, null, null, null, null, null, "BK", "51", "Limited Free", "TimeWarner", "Coffey Park", "Near the Baseball Field", "40.67720000020000270524178631603717803955078125", "-74.008699999599997454424737952649593353271484375", "981836.83191399998031556606292724609375", "185998.75272399999084882438182830810546875", "", "", "Brooklyn", "" ]
+, [ 50, "geo_wus9-98d5-1.50", null, null, null, null, null, null, "BK", "52", "Limited Free", "TimeWarner", "Coffey Park", "Near the Playground", "40.67720000020000270524178631603717803955078125", "-74.008699999599997454424737952649593353271484375", "981836.83191399998031556606292724609375", "185998.75272399999084882438182830810546875", "", "", "Brooklyn", "" ]
+, [ 51, "geo_wus9-98d5-1.51", null, null, null, null, null, null, "BK", "53", "Limited Free", "TimeWarner", "Coffey Park", "Between the Basketball Court and Comfort Station", "40.67720000020000270524178631603717803955078125", "-74.008699999599997454424737952649593353271484375", "981836.83191399998031556606292724609375", "185998.75272399999084882438182830810546875", "", "", "Brooklyn", "" ]
+, [ 52, "geo_wus9-98d5-1.52", null, null, null, null, null, null, "BK", "54", "Limited Free", "TimeWarner", "Coffey Park", "Between the Basketball Court and Comfort Station", "40.67720000020000270524178631603717803955078125", "-74.008699999599997454424737952649593353271484375", "981836.83191399998031556606292724609375", "185998.75272399999084882438182830810546875", "", "", "Brooklyn", "" ]
+, [ 53, "geo_wus9-98d5-1.53", null, null, null, null, null, null, "QU", "55", "Limited Free", "TimeWarner", "Baisley Pond Park", "Near gazebo", "40.6768917329000032623298466205596923828125", "-73.78691254320000325606088154017925262451171875", "1043355.4880800000391900539398193359375", "185958.211795000010170042514801025390625", "", "", "Queens", "" ]
+, [ 54, "geo_wus9-98d5-1.54", null, null, null, null, null, null, "BK", "56", "Limited Free", "TimeWarner", "Red Hook Recreation Area", "Near the Columbia Street and Bay Street Intersection", "40.67329999980000110326727735809981822967529296875", "-74.008199999499993282370269298553466796875", "981975.386754999984987080097198486328125", "184577.85759999998845160007476806640625", "", "", "Brooklyn", "" ]
+, [ 55, "geo_wus9-98d5-1.55", null, null, null, null, null, null, "BK", "57", "Limited Free", "TimeWarner", "Red Hook Recreation Area", "Near the Hicks Street and Bay Street Intersection", "40.67300000019999828282379894517362117767333984375", "-74.0069000001000034671960747800767421722412109375", "982335.987411999958567321300506591796875", "184468.5280940000084228813648223876953125", "", "", "Brooklyn", "" ]
+, [ 56, "geo_wus9-98d5-1.56", null, null, null, null, null, null, "MN", "59", "Limited Free", "TimeWarner", "Tony Dapolto Recreation Center", "Near the Pool", "40.72969999989999934086881694383919239044189453125", "-74.0056000000000011596057447604835033416748046875", "982697.919102999963797628879547119140625", "205126.00285600000643171370029449462890625", "", "", "New York", "" ]
+, [ 57, "geo_wus9-98d5-1.57", null, null, null, null, null, null, "BK", "60", "Limited Free", "TimeWarner", "Red Hook Recreation Area", "Near the Bay Street Baseball Diamonds", "40.67260000009999743042499176226556301116943359375", "-74.00549999940000134301953949034214019775390625", "982724.32882699999026954174041748046875", "184322.76920000000973232090473175048828125", "", "", "Brooklyn", "" ]
+, [ 58, "geo_wus9-98d5-1.58", null, null, null, null, null, null, "MN", "61", "Limited Free", "TimeWarner", "Tony Dapolto Recreation Center", "Computer Resource Center", "40.72959999959999777274788357317447662353515625", "-74.0054999997000066969121689908206462860107421875", "982725.632630000007338821887969970703125", "205089.5678889999981038272380828857421875", "", "", "New York", "" ]
+, [ 59, "geo_wus9-98d5-1.59", null, null, null, null, null, null, "MN", "62", "Limited Free", "TimeWarner", "Tony Dapolto Recreation Center", "Afterschool Room", "40.7295660002999966309289447963237762451171875", "-74.005492999799997733134659938514232635498046875", "982727.571930999984033405780792236328125", "205077.18077499998616985976696014404296875", "", "", "New York", "" ]
+, [ 60, "geo_wus9-98d5-1.60", null, null, null, null, null, null, "MN", "63", "Limited Free", "TimeWarner", "Tony Dapolto Recreation Center", "Basketball Court", "40.7295660002999966309289447963237762451171875", "-74.005492999799997733134659938514232635498046875", "982727.571930999984033405780792236328125", "205077.18077499998616985976696014404296875", "", "", "New York", "" ]
+, [ 61, "geo_wus9-98d5-1.61", null, null, null, null, null, null, "MN", "64", "Limited Free", "TimeWarner", "Tony Dapolto Recreation Center", "Lobby", "40.7295660002999966309289447963237762451171875", "-74.005492999799997733134659938514232635498046875", "982727.571930999984033405780792236328125", "205077.18077499998616985976696014404296875", "", "", "New York", "" ]
+, [ 62, "geo_wus9-98d5-1.62", null, null, null, null, null, null, "BK", "65", "Limited Free", "TimeWarner", "Red Hook Recreation Area", "Around Henry Street", "40.67300000009999649819292244501411914825439453125", "-74.004899999900004559094668366014957427978515625", "982890.77370400005020201206207275390625", "184468.49069299999973736703395843505859375", "", "", "Brooklyn", "" ]
+, [ 63, "geo_wus9-98d5-1.63", null, null, null, null, null, null, "BK", "66", "Limited Free", "TimeWarner", "Red Hook Recreation Area", "Near Red Hook Recreation Center", "40.67220000020000014728793757967650890350341796875", "-74.0041000000999957819658447988331317901611328125", "983112.6745070000179111957550048828125", "184177.01653799999621696770191192626953125", "", "", "Brooklyn", "" ]
+, [ 64, "geo_wus9-98d5-1.64", null, null, null, null, null, null, "BK", "67", "Limited Free", "TimeWarner", "Red Hook Recreation Area", "Between the Soccer Fields on Clinton Street", "40.67119999970000066014108597300946712493896484375", "-74.003699999600002001898246817290782928466796875", "983223.617854999960400164127349853515625", "183812.68294900000910274684429168701171875", "", "", "Brooklyn", "" ]
+, [ 65, "geo_wus9-98d5-1.65", null, null, null, null, null, null, "MN", "69", "Limited Free", "TimeWarner", "Chelsea Recreation Center", "Basketball Court", "40.74805700040000289163799607194960117340087890625", "-74.001945000099993876574444584548473358154296875", "983711.07750999997369945049285888671875", "211813.99538499998743645846843719482421875", "", "", "New York", "" ]
+, [ 66, "geo_wus9-98d5-1.66", null, null, null, null, null, null, "MN", "70", "Limited Free", "TimeWarner", "Chelsea Recreation Center", "Weight Room", "40.74805700040000289163799607194960117340087890625", "-74.001945000099993876574444584548473358154296875", "983711.07750999997369945049285888671875", "211813.99538499998743645846843719482421875", "", "", "New York", "" ]
+, [ 67, "geo_wus9-98d5-1.67", null, null, null, null, null, null, "MN", "71", "Limited Free", "TimeWarner", "Chelsea Recreation Center", "Cardio Room", "40.74805700040000289163799607194960117340087890625", "-74.001945000099993876574444584548473358154296875", "983711.07750999997369945049285888671875", "211813.99538499998743645846843719482421875", "", "", "New York", "" ]
+, [ 68, "geo_wus9-98d5-1.68", null, null, null, null, null, null, "MN", "72", "Limited Free", "TimeWarner", "Chelsea Recreation Center", "Basketball Court", "40.74805700040000289163799607194960117340087890625", "-74.001945000099993876574444584548473358154296875", "983711.07750999997369945049285888671875", "211813.99538499998743645846843719482421875", "", "", "New York", "" ]
+, [ 69, "geo_wus9-98d5-1.69", null, null, null, null, null, null, "MN", "73", "Limited Free", "TimeWarner", "Chelsea Recreation Center", "Third Floor", "40.748100000400000908484798856079578399658203125", "-74.001899999599999091515201143920421600341796875", "983723.546644999994896352291107177734375", "211829.6613639999995939433574676513671875", "", "", "New York", "" ]
+, [ 70, "geo_wus9-98d5-1.70", null, null, null, null, null, null, "BK", "75", "Limited Free", "TimeWarner", "Carroll Park", "Track and Field", "40.68059999980000185360040632076561450958251953125", "-73.9954000001999929736484773457050323486328125", "985525.86292200000025331974029541015625", "187237.3841050000046379864215850830078125", "", "", "Brooklyn", "" ]
+, [ 71, "geo_wus9-98d5-1.71", null, null, null, null, null, null, "BK", "76", "Limited Free", "TimeWarner", "Cadman Plaza Park", "Track and Field - South Entrance of Brooklyn War Memorial", "40.69659999999999655528881703503429889678955078125", "-73.9905999994000040942410123534500598907470703125", "986856.5728589999489486217498779296875", "193066.75794499999028630554676055908203125", "", "", "Brooklyn", "" ]
+, [ 72, "geo_wus9-98d5-1.72", null, null, null, null, null, null, "MN", "77", "Partner Site", "Partner", "Union Square Park", "Entire park", "40.735999999699998852520366199314594268798828125", "-73.990399999900006378084071911871433258056640625", "986910.458577999961562454700469970703125", "207421.38638800001353956758975982666015625", "", "", "New York", "" ]
+, [ 73, "geo_wus9-98d5-1.73", null, null, null, null, null, null, "MN", "78", "Limited Free", "TimeWarner", "Madison Square Park", "Statue - South West of Park", "40.74150000030000029482835088856518268585205078125", "-73.988899999799997431182418949902057647705078125", "987325.901317000039853155612945556640625", "209425.259676999994553625583648681640625", "", "", "New York", "" ]
+, [ 74, "geo_wus9-98d5-1.74", null, null, null, null, null, null, "MN", "79", "Limited Free", "TimeWarner", "Madison Square Park", "Dog Run", "40.7423999997999999322928488254547119140625", "-73.9887000005000032842872315086424350738525390625", "987381.280471000005491077899932861328125", "209753.16518899999209679663181304931640625", "", "", "New York", "" ]
+, [ 75, "geo_wus9-98d5-1.75", null, null, null, null, null, null, "MN", "80", "Limited Free", "TimeWarner", "Madison Square Park", "Benches - West North of Park", "40.74310000039999835053095011971890926361083984375", "-73.988300000099997077995794825255870819091796875", "987492.088319999980740249156951904296875", "210008.212250999989919364452362060546875", "", "", "New York", "" ]
+, [ 76, "geo_wus9-98d5-1.76", null, null, null, null, null, null, "MN", "81", "Limited Free", "TimeWarner", "Madison Square Park", "Bathroom", "40.74109999969999762470251880586147308349609375", "-73.98789999970000508255907334387302398681640625", "987603.029698999947868287563323974609375", "209279.56344599998556077480316162109375", "", "", "New York", "" ]
+, [ 77, "geo_wus9-98d5-1.77", null, null, null, null, null, null, "MN", "82", "Limited Free", "TimeWarner", "Madison Square Park", "Benches - East of Park", "40.7418999997999975448692566715180873870849609375", "-73.9874000002999991920660249888896942138671875", "987741.542545999982394278049468994140625", "209571.0484270000015385448932647705078125", "", "", "New York", "" ]
+, [ 78, "geo_wus9-98d5-1.78", null, null, null, null, null, null, "MN", "83", "Limited Free", "TimeWarner", "Madison Square Park", "Playground", "40.7425000003999997488790540955960750579833984375", "-73.9868999998000020923427655361592769622802734375", "987880.06326600001193583011627197265625", "209789.668069000006653368473052978515625", "", "", "New York", "" ]
+, [ 79, "geo_wus9-98d5-1.79", null, null, null, null, null, null, "BK", "84", "Limited Free", "Cablevision", "Steeplechase Park", "Stark Ice Rink 1", "40.5726679996000001438005710951983928680419921875", "-73.98613600039999482760322280228137969970703125", "988101.56347900000400841236114501953125", "147915.15008600000874139368534088134765625", "", "", "Brooklyn", "" ]
+, [ 80, "geo_wus9-98d5-1.80", null, null, null, null, null, null, "BK", "85", "Limited Free", "Cablevision", "Steeplechase Park", "Stark Ice Rink 2", "40.5726649998999988611103617586195468902587890625", "-73.985936000500004183777491562068462371826171875", "988157.12570400000549852848052978515625", "147914.0660989999887533485889434814453125", "", "", "Brooklyn", "" ]
+, [ 81, "geo_wus9-98d5-1.81", null, null, null, null, null, null, "BK", "86", "Limited Free", "Cablevision", "Steeplechase Park", "Stark Ice Rink 3", "40.57267800040000338412937708199024200439453125", "-73.9857499998999941226429655216634273529052734375", "988208.797845000051893293857574462890625", "147918.8108399999910034239292144775390625", "", "", "Brooklyn", "" ]
+, [ 82, "geo_wus9-98d5-1.82", null, null, null, null, null, null, "BK", "87", "Limited Free", "Cablevision", "Steeplechase Park", "Stark Ice Rink 6", "40.57280799979999841298194951377809047698974609375", "-73.98561700039999777800403535366058349609375", "988245.73871599999256432056427001953125", "147966.1788550000055693089962005615234375", "", "", "Brooklyn", "" ]
+, [ 83, "geo_wus9-98d5-1.83", null, null, null, null, null, null, "BK", "88", "Limited Free", "Cablevision", "Steeplechase Park", "Stark Ice Rink 4", "40.5726849997000016401216271333396434783935546875", "-73.985608999899994842053274624049663543701171875", "988247.968697999953292310237884521484375", "147921.367265000008046627044677734375", "", "", "Brooklyn", "" ]
+, [ 84, "geo_wus9-98d5-1.84", null, null, null, null, null, null, "BK", "89", "Limited Free", "Cablevision", "Steeplechase Park", "Stark Ice Rink 5", "40.57269400039999851514949114061892032623291015625", "-73.985601000499997326187440194189548492431640625", "988250.190478999982587993144989013671875", "147924.646785999997518956661224365234375", "", "", "Brooklyn", "" ]
+, [ 85, "geo_wus9-98d5-1.85", null, null, null, null, null, null, "BK", "90", "Limited Free", "Cablevision", "Gravesend Park", "Benches", "40.623300000000000409272615797817707061767578125", "-73.9852999998999933950472041033208370208740234375", "988330.717548000044189393520355224609375", "166361.7194920000038109719753265380859375", "", "", "Brooklyn", "" ]
+, [ 86, "geo_wus9-98d5-1.86", null, null, null, null, null, null, "MN", "91", "Limited Free", "TimeWarner", "Riverside Park", "On the Hudson River Greenway", "40.7860000001000031488729291595518589019775390625", "-73.985000000300004785458440892398357391357421875", "988403.84699500002898275852203369140625", "225638.23676500000874511897563934326171875", "", "", "New York", "" ]
+, [ 87, "geo_wus9-98d5-1.87", null, null, null, null, null, null, "BK", "92", "Limited Free", "Cablevision", "Steeplechase Park", "Front of MCU Park", "40.574999999900001057540066540241241455078125", "-73.984799999800003433847450651228427886962890625", "988472.57093899999745190143585205078125", "148764.81702200000290758907794952392578125", "", "", "Brooklyn", "" ]
+, [ 88, "geo_wus9-98d5-1.88", null, null, null, null, null, null, "MN", "93", "Limited Free", "TimeWarner", "Bryant Park", "Southwest Porch", "40.7537000001999984988287906162440776824951171875", "-73.9847999999000052184783271513879299163818359375", "988461.273718000040389597415924072265625", "213870.28162699998938478529453277587890625", "", "", "New York", "" ]
+, [ 89, "geo_wus9-98d5-1.89", null, null, null, null, null, null, "BK", "94", "Limited Free", "Cablevision", "Gravesend Park", "Benches", "40.6229999998000010918985935859382152557373046875", "-73.984699999599996544930036179721355438232421875", "988497.296611999976448714733123779296875", "166252.45002499999827705323696136474609375", "", "", "Brooklyn", "" ]
+, [ 90, "geo_wus9-98d5-1.90", null, null, null, null, null, null, "BK", "95", "Limited Free", "Cablevision", "Gravesend Park", "Playground", "40.6241999997999982952023856341838836669921875", "-73.98440000040000086301006376743316650390625", "988580.498873000033199787139892578125", "166689.65650000001187436282634735107421875", "", "", "Brooklyn", "" ]
+, [ 91, "geo_wus9-98d5-1.91", null, null, null, null, null, null, "MN", "96", "Limited Free", "TimeWarner", "Bryant Park", "Witchcraft Express", "40.75440000030000220476722461171448230743408203125", "-73.9842000004999960083296173252165317535400390625", "988627.462033999967388808727264404296875", "214125.34378100000321865081787109375", "", "", "New York", "" ]
+, [ 92, "geo_wus9-98d5-1.92", null, null, null, null, null, null, "MN", "97", "Limited Free", "TimeWarner", "Bryant Park", "Seating area near Bryant Park Grill", "40.7531999995999996144746546633541584014892578125", "-73.983999999600001729049836285412311553955078125", "988682.95306400000117719173431396484375", "213688.15469399999710731208324432373046875", "", "", "New York", "" ]
+, [ 93, "geo_wus9-98d5-1.93", null, null, null, null, null, null, "BK", "98", "Limited Free", "Cablevision", "Gravesend Park", "Playground", "40.623799999900001012065331451594829559326171875", "-73.9836000000999973735815729014575481414794921875", "988802.603087999974377453327178955078125", "166543.966503000003285706043243408203125", "", "", "Brooklyn", "" ]
+, [ 94, "geo_wus9-98d5-1.94", null, null, null, null, null, null, "MN", "99", "Partner Site", "Partner", "Bryant Park", "Entire park", "40.75379999980000178538830368779599666595458984375", "-73.983300000100001625469303689897060394287109375", "988876.852939000003971159458160400390625", "213906.79041200000210665166378021240234375", "", "", "New York", "" ]
+, [ 95, "geo_wus9-98d5-1.95", null, null, null, null, null, null, "MN", "100", "Limited Free", "TimeWarner", "Bryant Park", "Track and Field - North East of Park", "40.75429999970000238818101934157311916351318359375", "-73.98310000029999855541973374783992767333984375", "988932.22914099995978176593780517578125", "214088.9672129999962635338306427001953125", "", "", "New York", "" ]
+, [ 96, "geo_wus9-98d5-1.96", null, null, null, null, null, null, "BK", "101", "Limited Free", "Cablevision", "Gravesend Park", "Playground", "40.6235000003999999762527295388281345367431640625", "-73.9828999998999989884396200068295001983642578125", "988996.942921999958343803882598876953125", "166434.705894000013358891010284423828125", "", "", "Brooklyn", "" ]
+, [ 97, "geo_wus9-98d5-1.97", null, null, null, null, null, null, "BK", "102", "Limited Free", "Cablevision", "Steeplechase Park", "3001-3025 W 15th St", "40.57511499969999846371138119138777256011962890625", "-73.982112000200004331418313086032867431640625", "989219.29057399998418986797332763671875", "148806.855322999996133148670196533203125", "", "", "Brooklyn", "" ]
+, [ 98, "geo_wus9-98d5-1.98", null, null, null, null, null, null, "BK", "103", "Limited Free", "Cablevision", "Steeplechase Park", "3027-3087 W 15th St 2", "40.57405600029999703792782383970916271209716796875", "-73.98194099959999903148855082690715789794921875", "989266.87414099997840821743011474609375", "148421.0454000000027008354663848876953125", "", "", "Brooklyn", "" ]
+, [ 99, "geo_wus9-98d5-1.99", null, null, null, null, null, null, "BK", "104", "Limited Free", "Cablevision", "Steeplechase Park", "3027-3087 W 15th St", "40.573602000199997519302996806800365447998046875", "-73.9818450001999963205889798700809478759765625", "989293.577499000006355345249176025390625", "148255.6474359999992884695529937744140625", "", "", "Brooklyn", "" ]
+, [ 100, "geo_wus9-98d5-1.100", null, null, null, null, null, null, "BK", "105", "Limited Free", "Cablevision", "Steeplechase Park", "3089-3099 W 15th St", "40.57322899969999951963472994975745677947998046875", "-73.98181300039999541695578955113887786865234375", "989302.495461000013165175914764404296875", "148119.755975999985821545124053955078125", "", "", "Brooklyn", "" ]
+, [ 101, "geo_wus9-98d5-1.101", null, null, null, null, null, null, "MN", "106", "Limited Free", "TimeWarner", "Bryant Park", "Library Steps", "40.75269999959999722705106250941753387451171875", "-73.9818000002999980324602802284061908721923828125", "989292.521727000013925135135650634765625", "213506.1074859999935142695903778076171875", "", "", "New York", "" ]
+, [ 102, "geo_wus9-98d5-1.102", null, null, null, null, null, null, "MN", "107", "Limited Free", "TimeWarner", "Hamilton Fish Park", "Lobby", "40.71949999990000179650451173074543476104736328125", "-73.981800000399999817091156728565692901611328125", "989295.034846000024117529392242431640625", "201410.30195399999502114951610565185546875", "", "", "New York", "" ]
+, [ 103, "geo_wus9-98d5-1.103", null, null, null, null, null, null, "SI", "108", "Limited Free", "TimeWarner", "Tompkinsville Park", "Entire triangle", "40.7263999999999981582732289098203182220458984375", "-73.981800000399999817091156728565692901611328125", "989294.51253700000233948230743408203125", "203924.18472099999780766665935516357421875", "", "", "Staten Island", "" ]
+, [ 104, "geo_wus9-98d5-1.104", null, null, null, null, null, null, "MN", "109", "Limited Free", "TimeWarner", "Hamilton Fish Park", "Outside Hamilton Fish Recreation Center", "40.71980000020000289850941044278442859649658203125", "-73.98149999989999514582450501620769500732421875", "989378.17181800003163516521453857421875", "201519.6186640000087209045886993408203125", "", "", "New York", "" ]
+, [ 105, "geo_wus9-98d5-1.105", null, null, null, null, null, null, "MN", "110", "Limited Free", "TimeWarner", "Hamilton Fish Park", "Lobby", "40.71990000000000264890331891365349292755126953125", "-73.981500000500005853609764017164707183837890625", "989378.163944000029005110263824462890625", "201556.051662000012584030628204345703125", "", "", "New York", "" ]
+, [ 106, "geo_wus9-98d5-1.106", null, null, null, null, null, null, "MN", "112", "Limited Free", "TimeWarner", "Hamilton Fish Park", "Outside Hamilton Fish Recreation Center", "40.7200999996999968288946547545492649078369140625", "-73.98130000029999564503668807446956634521484375", "989433.588045999989844858646392822265625", "201628.92946899999515153467655181884765625", "", "", "New York", "" ]
+, [ 107, "geo_wus9-98d5-1.107", null, null, null, null, null, null, "BK", "113", "Limited Free", "Cablevision", "Steeplechase Park", "Brooklyn Beach Shop 2", "40.5734289996999990535186952911317348480224609375", "-73.980394000100005769127164967358112335205078125", "989696.688898000051267445087432861328125", "148192.7059609999996609985828399658203125", "", "", "Brooklyn", "" ]
+, [ 108, "geo_wus9-98d5-1.108", null, null, null, null, null, null, "BK", "114", "Limited Free", "Cablevision", "Steeplechase Park", "Brooklyn Beach Shop", "40.57327199960000285727801383472979068756103515625", "-73.98036299960000405917526222765445709228515625", "989705.3138810000382363796234130859375", "148135.508896999992430210113525390625", "", "", "Brooklyn", "" ]
+, [ 109, "geo_wus9-98d5-1.109", null, null, null, null, null, null, "BK", "115", "Limited Free", "Cablevision", "Steeplechase Park", "Ruby's Bar & Grill", "40.57324600030000283368281088769435882568359375", "-73.9802979994999958535117912106215953826904296875", "989723.37355599994771182537078857421875", "148126.04073999999673105776309967041015625", "", "", "Brooklyn", "" ]
+, [ 110, "geo_wus9-98d5-1.110", null, null, null, null, null, null, "BK", "116", "Limited Free", "Cablevision", "Steeplechase Park", "Lola Star Sovenir Boutique", "40.57327000000000083446138887666165828704833984375", "-73.9800829999999933761500869877636432647705078125", "989783.10014200001023709774017333984375", "148134.79794099999708123505115509033203125", "", "", "Brooklyn", "" ]
+, [ 111, "geo_wus9-98d5-1.111", null, null, null, null, null, null, "BK", "117", "Limited Free", "Cablevision", "Steeplechase Park", "Nathan's Famous", "40.5732860003000013193741324357688426971435546875", "-73.9798289999999951760401017963886260986328125", "989853.662008999963290989398956298828125", "148140.6434010000084526836872100830078125", "", "", "Brooklyn", "" ]
+, [ 112, "geo_wus9-98d5-1.112", null, null, null, null, null, null, "BK", "118", "Limited Free", "Cablevision", "Steeplechase Park", "Nathan's Famous 2", "40.57343700039999845330385142005980014801025390625", "-73.9797990002000034337470424361526966094970703125", "989861.98351499997079372406005859375", "148195.6583830000017769634723663330078125", "", "", "Brooklyn", "" ]
+, [ 113, "geo_wus9-98d5-1.113", null, null, null, null, null, null, "BK", "119", "Limited Free", "Cablevision", "Steeplechase Park", "Familia Pizzeria", "40.573415000300002475341898389160633087158203125", "-73.9789940003000054957738029770553112030029296875", "990085.6202070000581443309783935546875", "148187.695800999994389712810516357421875", "", "", "Brooklyn", "" ]
+, [ 114, "geo_wus9-98d5-1.114", null, null, null, null, null, null, "BK", "120", "Limited Free", "Cablevision", "Steeplechase Park", "Coney Cones", "40.57341499990000244224574998952448368072509765625", "-73.9789669997000061130165704526007175445556640625", "990093.12117599998600780963897705078125", "148187.69744099999661557376384735107421875", "", "", "Brooklyn", "" ]
+, [ 115, "geo_wus9-98d5-1.115", null, null, null, null, null, null, "BK", "121", "Limited Free", "Cablevision", "Steeplechase Park", "Coney Cones 2", "40.57340300029999724529261584393680095672607421875", "-73.9788490005000056726203183643519878387451171875", "990125.903262999956496059894561767578125", "148183.3336049999925307929515838623046875", "", "", "Brooklyn", "" ]
+, [ 116, "geo_wus9-98d5-1.116", null, null, null, null, null, null, "BK", "122", "Limited Free", "Cablevision", "Steeplechase Park", "Paul's Daughter", "40.57341899960000120017866720445454120635986328125", "-73.9785220000999999001578544266521930694580078125", "990216.744944000034593045711517333984375", "148189.18464299998595379292964935302734375", "", "", "Brooklyn", "" ]
+, [ 117, "geo_wus9-98d5-1.117", null, null, null, null, null, null, "BK", "123", "Limited Free", "Cablevision", "Steeplechase Park", "Paul's Daughter 2", "40.5734440003000003116540028713643550872802734375", "-73.9782749993999999560401192866265773773193359375", "990285.361277000047266483306884765625", "148198.3099529999890364706516265869140625", "", "", "Brooklyn", "" ]
+, [ 118, "geo_wus9-98d5-1.118", null, null, null, null, null, null, "BK", "125", "Limited Free", "Cablevision", "Steeplechase Park", "3000-3098 W 10th St 2", "40.5747040000999987796603818424046039581298828125", "-73.9780870000000021491359802894294261932373046875", "990337.47403399995528161525726318359375", "148657.3720270000048913061618804931640625", "", "", "Brooklyn", "" ]
+, [ 119, "geo_wus9-98d5-1.119", null, null, null, null, null, null, "BK", "126", "Limited Free", "Cablevision", "Steeplechase Park", "3000-3098 W 10th St", "40.5742890002999985199494403786957263946533203125", "-73.97807599940000500282621942460536956787109375", "990340.567858999944292008876800537109375", "148506.17810300001292489469051361083984375", "", "", "Brooklyn", "" ]
+, [ 120, "geo_wus9-98d5-1.120", null, null, null, null, null, null, "BK", "127", "Limited Free", "Cablevision", "Steeplechase Park", "3000-3098 W 10th St 3", "40.57516900009999716303354944102466106414794921875", "-73.9780010001999954738494125194847583770751953125", "990361.32241100003011524677276611328125", "148826.78901099998620338737964630126953125", "", "", "Brooklyn", "" ]
+, [ 121, "geo_wus9-98d5-1.121", null, null, null, null, null, null, "BK", "128", "Limited Free", "Cablevision", "Steeplechase Park", "Aquarium 1", "40.5735229997000033108633942902088165283203125", "-73.9779579996999956392755848355591297149658203125", "990373.4188439999707043170928955078125", "148227.1133730000001378357410430908203125", "", "", "Brooklyn", "" ]
+, [ 122, "geo_wus9-98d5-1.122", null, null, null, null, null, null, "BK", "129", "Limited Free", "Cablevision", "Steeplechase Park", "Aquarium 2", "40.5735230001999980231630615890026092529296875", "-73.9777550004999966404284350574016571044921875", "990429.8134159999899566173553466796875", "148227.12780799999018199741840362548828125", "", "", "Brooklyn", "" ]
+, [ 123, "geo_wus9-98d5-1.123", null, null, null, null, null, null, "BK", "130", "Limited Free", "Cablevision", "Steeplechase Park", "Aquarium 3", "40.57354700009999959320339257828891277313232421875", "-73.9772720001000010370262316428124904632568359375", "990563.9919529999606311321258544921875", "148235.906006000004708766937255859375", "", "", "Brooklyn", "" ]
+, [ 124, "geo_wus9-98d5-1.124", null, null, null, null, null, null, "BK", "131", "Limited Free", "TimeWarner", "Prospect Park", "Bandshell near West Dr", "40.66280000020000073845949373207986354827880859375", "-73.97640000059999465520377270877361297607421875", "990797.4786910000257194042205810546875", "180753.1861159999971278011798858642578125", "", "", "Brooklyn", "" ]
+, [ 125, "geo_wus9-98d5-1.125", null, null, null, null, null, null, "BK", "132", "Limited Free", "TimeWarner", "Prospect Park", "Bandshell near West Dr", "40.6629999999999967030817060731351375579833984375", "-73.9758000002999978050866047851741313934326171875", "990963.919958999962545931339263916015625", "180826.0970589999924413859844207763671875", "", "", "Brooklyn", "" ]
+, [ 126, "geo_wus9-98d5-1.126", null, null, null, null, null, null, "BK", "134", "Limited Free", "TimeWarner", "Prospect Park", "Park - East of Bandshell", "40.66350000029999733897057012654840946197509765625", "-73.9754999997000055600437917746603488922119140625", "991047.0995829999446868896484375", "181008.28435900001204572618007659912109375", "", "", "Brooklyn", "" ]
+, [ 127, "geo_wus9-98d5-1.127", null, null, null, null, null, null, "BK", "138", "Limited Free", "TimeWarner", "Metropolitan Recreation Center", "Lobby", "40.71500000009999808980865054763853549957275390625", "-73.9604000003999999535153619945049285888671875", "995227.849751999950967729091644287109375", "199772.7717640000046230852603912353515625", "", "", "Brooklyn", "" ]
+, [ 128, "geo_wus9-98d5-1.128", null, null, null, null, null, null, "MN", "140", "Limited Free", "TimeWarner", "Recreation Center 54", "Basketball Court", "40.75", "-73.94999999949999391901656053960323333740234375", "998103.64288399997167289257049560546875", "212525.84041800000704824924468994140625", "", "", "New York", "" ]
+, [ 129, "geo_wus9-98d5-1.129", null, null, null, null, null, null, "BK", "141", "Limited Free", "Cablevision", "Manhattan Beach Park", "Park seating area", "40.576099999999996725819073617458343505859375", "-73.9470000001000045131149818189442157745361328125", "998973.194622999988496303558349609375", "149169.662011999986134469509124755859375", "", "", "Brooklyn", "" ]
+, [ 130, "geo_wus9-98d5-1.130", null, null, null, null, null, null, "BK", "142", "Limited Free", "Cablevision", "Herbert Von King Park", "Multi-purpose room", "40.68990000010000329666581819765269756317138671875", "-73.9464999996999949871678836643695831298828125", "999086.770839000004343688488006591796875", "190630.14175499998964369297027587890625", "", "", "Brooklyn", "" ]
+, [ 131, "geo_wus9-98d5-1.131", null, null, null, null, null, null, "BK", "144", "Limited Free", "Cablevision", "Manhattan Beach Park", "Park seating area", "40.57620000040000007857088348828256130218505859375", "-73.94599999979999438437516801059246063232421875", "999250.96834599995054304599761962890625", "149206.2643019999959506094455718994140625", "", "", "Brooklyn", "" ]
+, [ 132, "geo_wus9-98d5-1.132", null, null, null, null, null, null, "BK", "145", "Limited Free", "Cablevision", "Manhattan Beach Park", "Park seating area", "40.57620000019999650930913048796355724334716796875", "-73.94550000030000092010595835745334625244140625", "999389.86603399994783103466033935546875", "149206.35025899999891407787799835205078125", "", "", "Brooklyn", "" ]
+, [ 133, "geo_wus9-98d5-1.133", null, null, null, null, null, null, "BK", "146", "Limited Free", "Cablevision", "Manhattan Beach Park", "Pathway to Beach", "40.575899999699998943469836376607418060302734375", "-73.9454000001999958158194203861057758331298828125", "999417.713746999972499907016754150390625", "149097.06996600001002661883831024169921875", "", "", "Brooklyn", "" ]
+, [ 134, "geo_wus9-98d5-1.134", null, null, null, null, null, null, "BK", "147", "Limited Free", "Cablevision", "Manhattan Beach Park", "Park seating area", "40.57770000010000188694903044961392879486083984375", "-73.944600000500003034176188521087169647216796875", "999639.536466000019572675228118896484375", "149752.99417900000116787850856781005859375", "", "", "Brooklyn", "" ]
+, [ 135, "geo_wus9-98d5-1.135", null, null, null, null, null, null, "BK", "148", "Limited Free", "Cablevision", "Wingate Park", "Bleachers", "40.65829999999999699866748414933681488037109375", "-73.944599999600001183353015221655368804931640625", "999620.965308999991975724697113037109375", "179117.6887310000020079314708709716796875", "", "", "Brooklyn", "" ]
+, [ 136, "geo_wus9-98d5-1.136", null, null, null, null, null, null, "BK", "150", "Limited Free", "Cablevision", "Wingate Park", "Running Track/Concert Area", "40.6583000003000023525601136498153209686279296875", "-73.9440999995999987959294230677187442779541015625", "999759.6923940000124275684356689453125", "179117.776985000004060566425323486328125", "", "", "Brooklyn", "" ]
+, [ 137, "geo_wus9-98d5-1.137", null, null, null, null, null, null, "BK", "151", "Limited Free", "Cablevision", "Manhattan Beach Park", "Beach area", "40.576299999799999795868643559515476226806640625", "-73.9439999995999954762737615965306758880615234375", "999806.536459999973885715007781982421875", "149243.04539600000134669244289398193359375", "", "", "Brooklyn", "" ]
+, [ 138, "geo_wus9-98d5-1.138", null, null, null, null, null, null, "BK", "152", "Limited Free", "Cablevision", "Manhattan Beach Park", "Park seating area", "40.5777999996000033888776670210063457489013671875", "-73.9430000004000049784735892899334430694580078125", "1000083.97586999996565282344818115234375", "149789.7116249999962747097015380859375", "", "", "Brooklyn", "" ]
+, [ 139, "geo_wus9-98d5-1.139", null, null, null, null, null, null, "MN", "153", "Limited Free", "TimeWarner", "Jackie Robinson Park", "Play area next to pool", "40.82479999969999795439434819854795932769775390625", "-73.9423000002000065933316363953053951263427734375", "1000219.15243000001646578311920166015625", "239779.34955899999476969242095947265625", "", "", "New York", "" ]
+, [ 140, "geo_wus9-98d5-1.140", null, null, null, null, null, null, "BK", "154", "Limited Free", "Cablevision", "Manhattan Beach Park", "Park seating area", "40.5767999998000021832922357134521007537841796875", "-73.9422000002000032736759749241173267364501953125", "1000306.4475300000049173831939697265625", "149425.53256399999372661113739013671875", "", "", "Brooklyn", "" ]
+, [ 141, "geo_wus9-98d5-1.141", null, null, null, null, null, null, "BK", "155", "Limited Free", "Cablevision", "Manhattan Beach Park", "Park seating area", "40.5771000001000032852971344254910945892333984375", "-73.9415000004999996008336893282830715179443359375", "1000500.82969000004231929779052734375", "149534.95918199999141506850719451904296875", "", "", "Brooklyn", "" ]
+, [ 142, "geo_wus9-98d5-1.142", null, null, null, null, null, null, "BK", "156", "Limited Free", "Cablevision", "Manhattan Beach Park", "Park seating area", "40.5779999999000011712269042618572711944580078125", "-73.9407000000000067529981606639921665191650390625", "1000722.84138999995775520801544189453125", "149863.0008490000036545097827911376953125", "", "", "Brooklyn", "" ]
+, [ 143, "geo_wus9-98d5-1.143", null, null, null, null, null, null, "MN", "157", "Limited Free", "TimeWarner", "Hansborough Recreation Center", "Game Room", "40.812913000099996452263440005481243133544921875", "-73.93920300060000272424076683819293975830078125", "1001079.289160000043921172618865966796875", "235449.0675369999953545629978179931640625", "", "", "New York", "" ]
+, [ 144, "geo_wus9-98d5-1.144", null, null, null, null, null, null, "MN", "158", "Limited Free", "TimeWarner", "Hansborough Recreation Center", "Dance Room", "40.812913000099996452263440005481243133544921875", "-73.93920300060000272424076683819293975830078125", "1001079.289160000043921172618865966796875", "235449.0675369999953545629978179931640625", "", "", "New York", "" ]
+, [ 145, "geo_wus9-98d5-1.145", null, null, null, null, null, null, "MN", "159", "Limited Free", "TimeWarner", "Hansborough Recreation Center", "Fitness Room", "40.812913000099996452263440005481243133544921875", "-73.93920300060000272424076683819293975830078125", "1001079.289160000043921172618865966796875", "235449.0675369999953545629978179931640625", "", "", "New York", "" ]
+, [ 146, "geo_wus9-98d5-1.146", null, null, null, null, null, null, "MN", "160", "Limited Free", "TimeWarner", "Hansborough Recreation Center", "Computer Resource Room", "40.812913000099996452263440005481243133544921875", "-73.93920300060000272424076683819293975830078125", "1001079.289160000043921172618865966796875", "235449.0675369999953545629978179931640625", "", "", "New York", "" ]
+, [ 147, "geo_wus9-98d5-1.147", null, null, null, null, null, null, "MN", "161", "Limited Free", "TimeWarner", "Hansborough Recreation Center", "Roof Top", "40.812913000099996452263440005481243133544921875", "-73.93920300060000272424076683819293975830078125", "1001079.289160000043921172618865966796875", "235449.0675369999953545629978179931640625", "", "", "New York", "" ]
+, [ 148, "geo_wus9-98d5-1.148", null, null, null, null, null, null, "MN", "162", "Limited Free", "TimeWarner", "Hansborough Recreation Center", "Basketball Court", "40.812913000099996452263440005481243133544921875", "-73.93920300060000272424076683819293975830078125", "1001079.289160000043921172618865966796875", "235449.0675369999953545629978179931640625", "", "", "New York", "" ]
+, [ 149, "geo_wus9-98d5-1.149", null, null, null, null, null, null, "MN", "163", "Limited Free", "TimeWarner", "Hansborough Recreation Center", "Roof Top", "40.812913000099996452263440005481243133544921875", "-73.93920300060000272424076683819293975830078125", "1001079.289160000043921172618865966796875", "235449.0675369999953545629978179931640625", "", "", "New York", "" ]
+, [ 150, "geo_wus9-98d5-1.150", null, null, null, null, null, null, "MN", "164", "Limited Free", "TimeWarner", "Hansborough Recreation Center", "Lobby", "40.81289999980000260393353528343141078948974609375", "-73.9391999996000066630585934035480022430419921875", "1001080.123149999999441206455230712890625", "235444.33165400000871159136295318603515625", "", "", "New York", "" ]
+, [ 151, "geo_wus9-98d5-1.151", null, null, null, null, null, null, "BK", "167", "Limited Free", "Cablevision", "St. John's Recreation Center", "Inside recreation center", "40.6739999998000030245748348534107208251953125", "-73.9349000001000007387119694612920284271240234375", "1002308.01997000002302229404449462890625", "184839.4912630000035278499126434326171875", "", "", "Brooklyn", "" ]
+, [ 152, "geo_wus9-98d5-1.152", null, null, null, null, null, null, "BK", "168", "Limited Free", "Cablevision", "Marine Park", "Exhibit Hall", "40.60099999980000262667090282775461673736572265625", "-73.9319000004000059789177612401545047760009765625", "1003160.862760000047273933887481689453125", "158244.25672400000621564686298370361328125", "", "", "Brooklyn", "" ]
+, [ 153, "geo_wus9-98d5-1.153", null, null, null, null, null, null, "BK", "169", "Limited Free", "Cablevision", "Marine Park", "Front picnic area of nature center", "40.60410000030000077231306931935250759124755859375", "-73.9317999999999955207385937683284282684326171875", "1003187.75279000005684792995452880859375", "159373.68786400000681169331073760986328125", "", "", "Brooklyn", "" ]
+, [ 154, "geo_wus9-98d5-1.154", null, null, null, null, null, null, "BK", "170", "Limited Free", "Cablevision", "Marine Park", "Back Seating area", "40.60399300019999913047286099754273891448974609375", "-73.93067099969999844688572920858860015869140625", "1003501.283990000025369226932525634765625", "159334.95106500000110827386379241943359375", "", "", "Brooklyn", "" ]
+, [ 155, "geo_wus9-98d5-1.155", null, null, null, null, null, null, "BK", "171", "Limited Free", "Cablevision", "Marine Park", "Library", "40.6041370001999979422180331312119960784912109375", "-73.9304300001000029851638828404247760772705078125", "1003568.163120000041089951992034912109375", "159387.4670359999872744083404541015625", "", "", "Brooklyn", "" ]
+, [ 156, "geo_wus9-98d5-1.156", null, null, null, null, null, null, "BK", "172", "Limited Free", "Cablevision", "Marine Park", "Front picnic area of nature center", "40.60480000039999737282414571382105350494384765625", "-73.93010000030000128390383906662464141845703125", "1003659.60453999997116625308990478515625", "159629.08794399999896995723247528076171875", "", "", "Brooklyn", "" ]
+, [ 157, "geo_wus9-98d5-1.157", null, null, null, null, null, null, "BK", "173", "Limited Free", "Cablevision", "Marine Park", "Pathway to nature center", "40.6058999997000000803382135927677154541015625", "-73.9284000001999999085455783642828464508056640625", "1004131.327350000035949051380157470703125", "160030.227233999990858137607574462890625", "", "", "Brooklyn", "" ]
+, [ 158, "geo_wus9-98d5-1.158", null, null, null, null, null, null, "BX", "176", "Limited Free", "Cablevision", "St. Mary's Park", "Gymnasium", "40.81149999969999697668754379265010356903076171875", "-73.914299999999997226041159592568874359130859375", "1007973.219930000021122395992279052734375", "234940.025575999985449016094207763671875", "", "", "Bronx", "" ]
+, [ 159, "geo_wus9-98d5-1.159", null, null, null, null, null, null, "BX", "177", "Limited Free", "Cablevision", "St. Mary's Park", "Gymnasium", "40.8114000002999972593897837214171886444091796875", "-73.914299999500002513741492293775081634521484375", "1007973.255690000019967555999755859375", "234903.59224999998696148395538330078125", "", "", "Bronx", "" ]
+, [ 160, "geo_wus9-98d5-1.160", null, null, null, null, null, null, "BX", "178", "Limited Free", "Cablevision", "St. Mary's Park", "Multi-purpose room", "40.81160000039999857790462556295096874237060546875", "-73.914200000199997475647251121699810028076171875", "1008000.865869999979622662067413330078125", "234976.4864620000007562339305877685546875", "", "", "Bronx", "" ]
+, [ 161, "geo_wus9-98d5-1.161", null, null, null, null, null, null, "BX", "179", "Limited Free", "Cablevision", "St. Mary's Park", "Classroom 2nd floor", "40.8115000003000005790454451926052570343017578125", "-73.914099999900003012953675352036952972412109375", "1008028.583340000011958181858062744140625", "234940.08003799998550675809383392333984375", "", "", "Bronx", "" ]
+, [ 162, "geo_wus9-98d5-1.162", null, null, null, null, null, null, "BX", "180", "Limited Free", "Cablevision", "St. Mary's Park", "Lobby", "40.8114999996000022974840248934924602508544921875", "-73.91399999989999969329801388084888458251953125", "1008056.265039999969303607940673828125", "234940.10694100000546313822269439697265625", "", "", "Bronx", "" ]
+, [ 163, "geo_wus9-98d5-1.163", null, null, null, null, null, null, "BX", "181", "Limited Free", "Cablevision", "St. Mary's Park", "Playground area", "40.81280000000000285353962681256234645843505859375", "-73.9133999993999992739190929569303989410400390625", "1008221.88708000001497566699981689453125", "235413.906847000005654990673065185546875", "", "", "Bronx", "" ]
+, [ 164, "geo_wus9-98d5-1.164", null, null, null, null, null, null, "BX", "182", "Limited Free", "Cablevision", "St. Mary's Park", "Basketball courts", "40.8129000002000026370296836830675601959228515625", "-73.913399999700004627811722457408905029296875", "1008221.85098999994806945323944091796875", "235450.3405009999987669289112091064453125", "", "", "Bronx", "" ]
+, [ 165, "geo_wus9-98d5-1.165", null, null, null, null, null, null, "QU", "183", "Limited Free", "TimeWarner", "Lawrence Virgilio Playground", "Near the Woodside Avenue and 38th Road entrance", "40.747800000300003375741653144359588623046875", "-73.9100999996000069813817390240728855133056640625", "1009159.669329999946057796478271484375", "211733.1382630000007338821887969970703125", "", "", "Queens", "" ]
+, [ 166, "geo_wus9-98d5-1.166", null, null, null, null, null, null, "QU", "184", "Limited Free", "TimeWarner", "Lawrence Virgilio Playground", "Near the Woodside Avenue and 54th Street entrance", "40.7473999998999971694502164609730243682861328125", "-73.9094999999000066281951148994266986846923828125", "1009326.068929999950341880321502685546875", "211587.57654700000421144068241119384765625", "", "", "Queens", "" ]
+, [ 167, "geo_wus9-98d5-1.167", null, null, null, null, null, null, "QU", "185", "Limited Free", "TimeWarner", "Lawrence Virgilio Playground", "Near the Woodside Avenue and 55th Street Entrance to Doughboy Plaza", "40.74689999959999653356135240755975246429443359375", "-73.908899999699997351854108273983001708984375", "1009492.50855999998748302459716796875", "211405.58281600000918842852115631103515625", "", "", "Queens", "" ]
+, [ 168, "geo_wus9-98d5-1.168", null, null, null, null, null, null, "BK", "187", "Limited Free", "Cablevision", "Brownsville Playground", "Gymnasium", "40.656099999600002092847716994583606719970703125", "-73.9028000004000062972409068606793880462646484375", "1011219.4381800000555813312530517578125", "178326.26970999999321065843105316162109375", "", "", "Brooklyn", "" ]
+, [ 169, "geo_wus9-98d5-1.169", null, null, null, null, null, null, "BK", "188", "Limited Free", "Cablevision", "Brownsville Playground", "Weight & Fitness room", "40.65670000000000072759576141834259033203125", "-73.9028000001000009433482773602008819580078125", "1011219.19571999995969235897064208984375", "178544.8663850000011734664440155029296875", "", "", "Brooklyn", "" ]
+, [ 170, "geo_wus9-98d5-1.170", null, null, null, null, null, null, "BK", "189", "Limited Free", "Cablevision", "Brownsville Playground", "Multi-purpose room", "40.65590000009999727126341895200312137603759765625", "-73.9027999997999955894556478597223758697509765625", "1011219.5192100000567734241485595703125", "178253.404370000003837049007415771484375", "", "", "Brooklyn", "" ]
+, [ 171, "geo_wus9-98d5-1.171", null, null, null, null, null, null, "BK", "190", "Limited Free", "Cablevision", "Brownsville Playground", "Teen Room", "40.656399999900003194852615706622600555419921875", "-73.9027000004000029775852453894913196563720703125", "1011247.063119999947957694530487060546875", "178435.59888700000010430812835693359375", "", "", "Brooklyn", "" ]
+, [ 172, "geo_wus9-98d5-1.172", null, null, null, null, null, null, "BK", "191", "Limited Free", "Cablevision", "Brownsville Playground", "Baseball field", "40.6570999999999997953636921010911464691162109375", "-73.90269999980000648065470159053802490234375", "1011246.779979999992065131664276123046875", "178690.6282329999958164989948272705078125", "", "", "Brooklyn", "" ]
+, [ 173, "geo_wus9-98d5-1.173", null, null, null, null, null, null, "BK", "192", "Limited Free", "Cablevision", "Brownsville Playground", "Game Room", "40.65620000039999837326831766404211521148681640625", "-73.902599999800003160999040119349956512451171875", "1011274.890490000019781291484832763671875", "178362.764387000002898275852203369140625", "", "", "Brooklyn", "" ]
+, [ 174, "geo_wus9-98d5-1.174", null, null, null, null, null, null, "BK", "193", "Limited Free", "Cablevision", "Brownsville Playground", "Lobby", "40.65609999969999677205123589374125003814697265625", "-73.90250000029999455364304594695568084716796875", "1011302.677179999998770654201507568359375", "178326.36222899999120272696018218994140625", "", "", "Brooklyn", "" ]
+, [ 175, "geo_wus9-98d5-1.175", null, null, null, null, null, null, "BK", "194", "Limited Free", "Cablevision", "Brownsville Playground", "Handball Court", "40.65710000010000157999456860125064849853515625", "-73.90220000040000059016165323555469512939453125", "1011385.509369999985210597515106201171875", "178690.78276000000187195837497711181640625", "", "", "Brooklyn", "" ]
+, [ 176, "geo_wus9-98d5-1.176", null, null, null, null, null, null, "BK", "195", "Limited Free", "Cablevision", "Brownsville Playground", "Basketball Courts", "40.65699999990000179650451173074543476104736328125", "-73.9013999998999935314714093692600727081298828125", "1011607.517779999994672834873199462890625", "178654.59877700000652112066745758056640625", "", "", "Brooklyn", "" ]
+, [ 177, "geo_wus9-98d5-1.177", null, null, null, null, null, null, "BX", "196", "Limited Free", "Cablevision", "St. James Park", "Front seating area of recreation center", "40.86459999979999935248997644521296024322509765625", "-73.899100000299995372188277542591094970703125", "1012158.5527699999511241912841796875", "254290.80282000001170672476291656494140625", "", "", "Bronx", "" ]
+, [ 178, "geo_wus9-98d5-1.178", null, null, null, null, null, null, "QU", "197", "Limited Free", "TimeWarner", "Juniper Valley Park", "Near the 71st Street and Lutheran Avenue Entrance", "40.718800000100003444458707235753536224365234375", "-73.885399999399993475890369154512882232666015625", "1016017.4131599999964237213134765625", "201175.5265040000085718929767608642578125", "", "", "Queens", "" ]
+, [ 179, "geo_wus9-98d5-1.179", null, null, null, null, null, null, "QU", "198", "Limited Free", "TimeWarner", "Juniper Valley Park", "West of the Basketball Courts", "40.7192000001000025122266379185020923614501953125", "-73.8853000003999937916887574829161167144775390625", "1016044.94229999999515712261199951171875", "201321.29491399999824352562427520751953125", "", "", "Queens", "" ]
+, [ 180, "geo_wus9-98d5-1.180", null, null, null, null, null, null, "QU", "199", "Limited Free", "TimeWarner", "Juniper Valley Park", "Near Lutheran Avenue, West of the Running Track", "40.72050000029999949902048683725297451019287109375", "-73.8849000002999929392899503000080585479736328125", "1016155.200289999949745833873748779296875", "201795.069885000004433095455169677734375", "", "", "Queens", "" ]
+, [ 181, "geo_wus9-98d5-1.181", null, null, null, null, null, null, "QU", "200", "Limited Free", "TimeWarner", "Juniper Valley Park", "Near Juniper Boulevard South and 75th Street", "40.71829999970000102393896668218076229095458984375", "-73.882299999699995396440499462187290191650390625", "1016876.9852599999867379665374755859375", "200994.5006200000061653554439544677734375", "", "", "Queens", "" ]
+, [ 182, "geo_wus9-98d5-1.182", null, null, null, null, null, null, "QU", "201", "Limited Free", "TimeWarner", "Juniper Valley Park", "West of the Basketball Courts", "40.72110000010000163683798746205866336822509765625", "-73.8778999995000020817315089516341686248779296875", "1018095.263009999995119869709014892578125", "202016.29516400001011788845062255859375", "", "", "Queens", "" ]
+, [ 183, "geo_wus9-98d5-1.183", null, null, null, null, null, null, "QU", "202", "Limited Free", "TimeWarner", "Juniper Valley Park", "Near the Playground", "40.7203000001999981805056449957191944122314453125", "-73.877800000500002397529897280037403106689453125", "1018123.38861000002361834049224853515625", "201724.8695660000084899365901947021484375", "", "", "Queens", "" ]
+, [ 184, "geo_wus9-98d5-1.184", null, null, null, null, null, null, "QU", "203", "Limited Free", "TimeWarner", "Juniper Valley Park", "Near the Asphalt Baseball Field", "40.72060000030000281867614830844104290008544921875", "-73.877300000600001794737181626260280609130859375", "1018261.833540000021457672119140625", "201834.3624570000101812183856964111328125", "", "", "Queens", "" ]
+, [ 185, "geo_wus9-98d5-1.185", null, null, null, null, null, null, "QU", "204", "Limited Free", "TimeWarner", "Juniper Valley Park", "Near Juniper Boulevard South and 75th Street", "40.71970000040000314811550197191536426544189453125", "-73.877100000100000443126191385090351104736328125", "1018317.732710000011138617992401123046875", "201506.54290299999411217868328094482421875", "", "", "Queens", "" ]
+, [ 186, "geo_wus9-98d5-1.186", null, null, null, null, null, null, "BX", "205", "Limited Free", "Cablevision", "Bronx Park", "Rosewood Playground", "40.87299999999999755573298898525536060333251953125", "-73.8712999995999979319094563834369182586669921875", "1019843.424860000028274953365325927734375", "257361.3262059999979101121425628662109375", "", "", "Bronx", "" ]
+, [ 187, "geo_wus9-98d5-1.187", null, null, null, null, null, null, "BX", "206", "Limited Free", "Cablevision", "Bronx Park", "Ranaqua - Lobby - Parks Building", "40.84730000009999884014177951030433177947998046875", "-73.87069999950000465105404146015644073486328125", "1020023.182709999964572489261627197265625", "247998.0775439999997615814208984375", "", "", "Bronx", "" ]
+, [ 188, "geo_wus9-98d5-1.188", null, null, null, null, null, null, "BX", "207", "Limited Free", "Cablevision", "Bronx Park", "Ranaqua - Parking lot area - Parks Building", "40.847499999999996589394868351519107818603515625", "-73.8702000002000005451918696053326129913330078125", "1020161.40847999998368322849273681640625", "248071.1495770000037737190723419189453125", "", "", "Bronx", "" ]
+, [ 189, "geo_wus9-98d5-1.189", null, null, null, null, null, null, "BX", "208", "Limited Free", "Cablevision", "Gun Hill Playground", "Playground", "40.8748000002999987145813065581023693084716796875", "-73.8654000005000028750146157108247280120849609375", "1021474.126659999950788915157318115234375", "258019.588997000013478100299835205078125", "", "", "Bronx", "" ]
+, [ 190, "geo_wus9-98d5-1.190", null, null, null, null, null, null, "QU", "209", "Limited Free", "TimeWarner", "London Planetree Playground", "Near Atlantic Avenue and 88th Street", "40.68670000030000011292941053397953510284423828125", "-73.8544000003000036258526961319148540496826171875", "1024630.123950000037439167499542236328125", "189493.31660099999862723052501678466796875", "", "", "Queens", "" ]
+, [ 191, "geo_wus9-98d5-1.191", null, null, null, null, null, null, "QU", "210", "Limited Free", "TimeWarner", "London Planetree Playground", "Near the Basketball Courts", "40.68619999959999944394439808093011379241943359375", "-73.853899999899994099905597977340221405029296875", "1024769.095790000050328671932220458984375", "189311.3829099999857135117053985595703125", "", "", "Queens", "" ]
+, [ 192, "geo_wus9-98d5-1.192", null, null, null, null, null, null, "QU", "211", "Limited Free", "TimeWarner", "London Planetree Playground", "Near the Handball Courts", "40.68700000039999764567255624569952487945556640625", "-73.8536000003999930640929960645735263824462890625", "1024851.809860000037588179111480712890625", "189602.98501699999906122684478759765625", "", "", "Queens", "" ]
+, [ 193, "geo_wus9-98d5-1.193", null, null, null, null, null, null, "QU", "212", "Limited Free", "TimeWarner", "London Planetree Playground", "Near the Comfort Station", "40.6856000001999973392230458557605743408203125", "-73.8529999996000015016761608421802520751953125", "1025019.066740000038407742977142333984375", "189093.20355599999311380088329315185546875", "", "", "Queens", "" ]
+, [ 194, "geo_wus9-98d5-1.194", null, null, null, null, null, null, "BX", "215", "Limited Free", "Cablevision", "Owen F. Dolen Park", "Inside recreation center", "40.8406000000999966914605465717613697052001953125", "-73.8424999998999993522375007160007953643798828125", "1027829.603770000045187771320343017578125", "245569.79171799999312497675418853759765625", "", "", "Bronx", "" ]
+, [ 195, "geo_wus9-98d5-1.195", null, null, null, null, null, null, "BX", "216", "Limited Free", "Cablevision", "Seton Falls Park", "Playground", "40.88880000040000339822654495947062969207763671875", "-73.8401000005000014425604604184627532958984375", "1028461.616950000054202973842620849609375", "263132.1030499999760650098323822021484375", "", "", "Bronx", "" ]
+, [ 196, "geo_wus9-98d5-1.196", null, null, null, null, null, null, "BX", "217", "Limited Free", "Cablevision", "Seton Falls Park", "Playground", "40.88529999960000083092381828464567661285400390625", "-73.83850000050000517148873768746852874755859375", "1028906.360149999964050948619842529296875", "261857.72502199999871663749217987060546875", "", "", "Bronx", "" ]
+, [ 197, "geo_wus9-98d5-1.197", null, null, null, null, null, null, "QU", "218", "Limited Free", "TimeWarner", "Rockaway Beach", "Beach 116 Street 2", "40.57811599970000315806828439235687255859375", "-73.8361070001000001639113179408013820648193359375", "1029777.442400000058114528656005859375", "149942.27726500001153908669948577880859375", "", "", "Queens", "" ]
+, [ 198, "geo_wus9-98d5-1.198", null, null, null, null, null, null, "BX", "219", "Limited Free", "Cablevision", "Seton Falls Park", "Benches", "40.887600000399999089495395310223102569580078125", "-73.836000000300003875963739119470119476318359375", "1029596.06545999995432794094085693359375", "262696.9910599999711848795413970947265625", "", "", "Bronx", "" ]
+, [ 199, "geo_wus9-98d5-1.199", null, null, null, null, null, null, "QU", "220", "Limited Free", "TimeWarner", "Rockaway Beach", "Beach 116 Street 1", "40.5778960004000026629000785760581493377685546875", "-73.8359889997000067296539782546460628509521484375", "1029810.371470000012777745723724365234375", "149862.18752999999560415744781494140625", "", "", "Queens", "" ]
+, [ 200, "geo_wus9-98d5-1.200", null, null, null, null, null, null, "QU", "221", "Limited Free", "TimeWarner", "Rockaway Beach", "Beach 116 Street 5", "40.578253999899999371336889453232288360595703125", "-73.83583899970000175017048604786396026611328125", "1029851.795270000002346932888031005859375", "149992.69350299998768605291843414306640625", "", "", "Queens", "" ]
+, [ 201, "geo_wus9-98d5-1.201", null, null, null, null, null, null, "QU", "222", "Limited Free", "TimeWarner", "Rockaway Beach", "Beach 116 Street 4", "40.57816499959999845259517314843833446502685546875", "-73.835752999899995074883918277919292449951171875", "1029875.745680000050924718379974365234375", "149960.3133180000004358589649200439453125", "", "", "Queens", "" ]
+, [ 202, "geo_wus9-98d5-1.202", null, null, null, null, null, null, "QU", "223", "Limited Free", "TimeWarner", "Rockaway Beach", "Beach 116 Street 3", "40.5780260002999995094796759076416492462158203125", "-73.8356670003999937534899800084531307220458984375", "1029899.73020999995060265064239501953125", "149909.7172910000081174075603485107421875", "", "", "Queens", "" ]
+, [ 203, "geo_wus9-98d5-1.203", null, null, null, null, null, null, "QU", "224", "Limited Free", "TimeWarner", "Overlook Park", "First Floor Conference Room in Park Building", "40.7108489996000031396761187352240085601806640625", "-73.8355660001000018155536963604390621185302734375", "1029836.949170000036247074604034423828125", "198300.74189999999362044036388397216796875", "", "", "Queens", "" ]
+, [ 204, "geo_wus9-98d5-1.204", null, null, null, null, null, null, "QU", "225", "Limited Free", "TimeWarner", "Overlook Park", "Outside Park Building", "40.71080000020000255744889727793633937835693359375", "-73.835500000199999703909270465373992919921875", "1029855.280170000041835010051727294921875", "198282.924349999986588954925537109375", "", "", "Queens", "" ]
+, [ 205, "geo_wus9-98d5-1.205", null, null, null, null, null, null, "QU", "226", "Limited Free", "TimeWarner", "Overlook Park", "Near the Comfort Station", "40.709800000000001318767317570745944976806640625", "-73.835499999500001422347850166261196136474609375", "1029855.964550000033341348171234130859375", "197918.59469800000078976154327392578125", "", "", "Queens", "" ]
+, [ 206, "geo_wus9-98d5-1.206", null, null, null, null, null, null, "BX", "227", "Limited Free", "Cablevision", "Seton Falls Park", "Benches", "40.886899999999997135091689415276050567626953125", "-73.8347999998999995341364410705864429473876953125", "1029928.346619999967515468597412109375", "262442.5765419999952428042888641357421875", "", "", "Bronx", "" ]
+, [ 207, "geo_wus9-98d5-1.207", null, null, null, null, null, null, "QU", "228", "Limited Free", "TimeWarner", "Rockaway Beach", "Beach 106 Street 1", "40.58036499970000221537702600471675395965576171875", "-73.82655900020000672157038934528827667236328125", "1032428.132630000007338821887969970703125", "150766.74937000000500120222568511962890625", "", "", "Queens", "" ]
+, [ 208, "geo_wus9-98d5-1.208", null, null, null, null, null, null, "QU", "229", "Limited Free", "TimeWarner", "Rockaway Beach", "Beach 106 Street 2", "40.5804049999999989495336194522678852081298828125", "-73.8263550006000031089570256881415843963623046875", "1032484.770320000010542571544647216796875", "150781.4347079999861307442188262939453125", "", "", "Queens", "" ]
+, [ 209, "geo_wus9-98d5-1.209", null, null, null, null, null, null, "QU", "230", "Limited Free", "TimeWarner", "Rockaway Beach", "Beach 106 Street 3", "40.58047100040000287890507024712860584259033203125", "-73.82621499949999588352511636912822723388671875", "1032523.611769999959506094455718994140625", "150805.55736299999989569187164306640625", "", "", "Queens", "" ]
+, [ 210, "geo_wus9-98d5-1.210", null, null, null, null, null, null, "QU", "231", "Limited Free", "TimeWarner", "Rockaway Beach", "Beach 106 Street 4", "40.5805929996000003256995114497840404510498046875", "-73.8259689995000059070662246085703372955322265625", "1032591.8567200000397861003875732421875", "150850.14027900001383386552333831787109375", "", "", "Queens", "" ]
+, [ 211, "geo_wus9-98d5-1.211", null, null, null, null, null, null, "QU", "232", "Limited Free", "TimeWarner", "Kissena Park", "Baseball Field at Elder Ave", "40.75140000009999852181863388977944850921630859375", "-73.824700000299998237096588127315044403076171875", "1032819.820829999982379376888275146484375", "213080.55092300000251270830631256103515625", "", "", "Queens", "" ]
+, [ 212, "geo_wus9-98d5-1.212", null, null, null, null, null, null, "QU", "233", "Limited Free", "TimeWarner", "Kissena Park", "Swing and seating area at Colden St and Geranium Ave", "40.7500999997999997503939084708690643310546875", "-73.8228000003000062179125961847603321075439453125", "1033347.20527000003494322299957275390625", "212607.9790330000105313956737518310546875", "", "", "Queens", "" ]
+, [ 213, "geo_wus9-98d5-1.213", null, null, null, null, null, null, "QU", "234", "Limited Free", "TimeWarner", "Kissena Park", "Northeast of Garden - Southeast of Baseball Field", "40.74849999999999994315658113919198513031005859375", "-73.8211999996999992390556144528090953826904296875", "1033791.710289999959059059619903564453125", "212025.949684999999590218067169189453125", "", "", "Queens", "" ]
+, [ 214, "geo_wus9-98d5-1.214", null, null, null, null, null, null, "QU", "235", "Limited Free", "TimeWarner", "Kissena Park", "Baseball Field at Colden St and Negundo Ave", "40.74759999980000202413066290318965911865234375", "-73.818200000100006263892282731831073760986328125", "1034623.626270000007934868335723876953125", "211699.7623460000031627714633941650390625", "", "", "Queens", "" ]
+, [ 215, "geo_wus9-98d5-1.215", null, null, null, null, null, null, "QU", "236", "Limited Free", "TimeWarner", "Rockaway Beach", "Beach 97 Street  1", "40.58298799970000203529707505367696285247802734375", "-73.817954000599996788878343068063259124755859375", "1034816.424770000041462481021881103515625", "151727.22185800000443123281002044677734375", "", "", "Queens", "" ]
+, [ 216, "geo_wus9-98d5-1.216", null, null, null, null, null, null, "QU", "237", "Limited Free", "TimeWarner", "Rockaway Beach", "Beach 97 Street  2", "40.58298799970000203529707505367696285247802734375", "-73.817954000599996788878343068063259124755859375", "1034816.424770000041462481021881103515625", "151727.22185800000443123281002044677734375", "", "", "Queens", "" ]
+, [ 217, "geo_wus9-98d5-1.217", null, null, null, null, null, null, "QU", "238", "Limited Free", "TimeWarner", "Rockaway Beach", "Beach 97 Street  3", "40.582816999599998553094337694346904754638671875", "-73.8176540003999974715043208561837673187255859375", "1034899.884579999954439699649810791015625", "151665.0956700000097043812274932861328125", "", "", "Queens", "" ]
+, [ 218, "geo_wus9-98d5-1.218", null, null, null, null, null, null, "QU", "239", "Limited Free", "TimeWarner", "Kissena Park", "Cricket Pitch", "40.74369999990000223988317884504795074462890625", "-73.8172999994000065271393395960330963134765625", "1034875.964019999955780804157257080078125", "210279.3895299999858252704143524169921875", "", "", "Queens", "" ]
+, [ 219, "geo_wus9-98d5-1.219", null, null, null, null, null, null, "QU", "240", "Limited Free", "TimeWarner", "Rockaway Beach", "Beach 97 Street  4", "40.5829399997000024313820176757872104644775390625", "-73.8172249997000022858628653921186923980712890625", "1035018.953570000012405216693878173828125", "151710.15594699999201111495494842529296875", "", "", "Queens", "" ]
+, [ 220, "geo_wus9-98d5-1.220", null, null, null, null, null, null, "QU", "241", "Limited Free", "TimeWarner", "Rockaway Beach", "Beach 97 Street  5", "40.58302899960000331702758558094501495361328125", "-73.81698799989999315585009753704071044921875", "1035084.716559999971650540828704833984375", "151742.71821799999452196061611175537109375", "", "", "Queens", "" ]
+, [ 221, "geo_wus9-98d5-1.221", null, null, null, null, null, null, "QU", "242", "Limited Free", "TimeWarner", "Kissena Park", "Baseball Field at Kissena Blvd and Booth Memorial Ave", "40.74370000020000048834845074452459812164306640625", "-73.8140000002999983053086907602846622467041015625", "1035790.388709999970160424709320068359375", "210281.3140669999993406236171722412109375", "", "", "Queens", "" ]
+, [ 222, "geo_wus9-98d5-1.222", null, null, null, null, null, null, "QU", "243", "Limited Free", "TimeWarner", "Kissena Park", "Southwest Entrance of Park", "40.74549999989999804483886691741645336151123046875", "-73.8135999999000063098719692789018154144287109375", "1035899.83270999998785555362701416015625", "210937.3455630000098608434200286865234375", "", "", "Queens", "" ]
+, [ 223, "geo_wus9-98d5-1.223", null, null, null, null, null, null, "QU", "244", "Limited Free", "TimeWarner", "Kissena Park", "Baseball Field at Rose Ave and Browne St", "40.74759999999999848796505830250680446624755859375", "-73.8117000002999930075020529329776763916015625", "1036424.660730000003241002559661865234375", "211703.56712799999513663351535797119140625", "", "", "Queens", "" ]
+, [ 224, "geo_wus9-98d5-1.224", null, null, null, null, null, null, "QU", "245", "Limited Free", "TimeWarner", "Kissena Park", "Baseball Field at Booth Memorial Ave and 156th St", "40.7423999996999981476619723252952098846435546875", "-73.8115000000999970097836921922862529754638671875", "1036484.154050000011920928955078125", "209809.1644209999940358102321624755859375", "", "", "Queens", "" ]
+, [ 225, "geo_wus9-98d5-1.225", null, null, null, null, null, null, "QU", "246", "Limited Free", "TimeWarner", "Rockaway Beach", "Beach 90 Street  1", "40.5844219997999999804960680194199085235595703125", "-73.8114200003000036076628020964562892913818359375", "1036630.228890000027604401111602783203125", "152253.5023010000004433095455169677734375", "", "", "Queens", "" ]
+, [ 226, "geo_wus9-98d5-1.226", null, null, null, null, null, null, "QU", "247", "Limited Free", "TimeWarner", "Rockaway Beach", "Beach 90 Street  2", "40.58451999980000124423895613290369510650634765625", "-73.81116300019999698633910156786441802978515625", "1036701.536489999969489872455596923828125", "152289.3598409999976865947246551513671875", "", "", "Queens", "" ]
+, [ 227, "geo_wus9-98d5-1.227", null, null, null, null, null, null, "QU", "248", "Limited Free", "TimeWarner", "Rockaway Beach", "Beach 90 Street  3", "40.58468299980000182358708116225898265838623046875", "-73.8110340000999940457404591143131256103515625", "1036737.239500000025145709514617919921875", "152348.821992999990470707416534423828125", "", "", "Queens", "" ]
+, [ 228, "geo_wus9-98d5-1.228", null, null, null, null, null, null, "QU", "249", "Limited Free", "TimeWarner", "Rockaway Beach", "Beach 90 Street  4", "40.58457700019999947471660561859607696533203125", "-73.810915999499997042221366427838802337646484375", "1036770.098690000013448297977447509765625", "152310.27449800001340918242931365966796875", "", "", "Queens", "" ]
+, [ 229, "geo_wus9-98d5-1.229", null, null, null, null, null, null, "QU", "250", "Limited Free", "TimeWarner", "Rockaway Beach", "Beach 90 Street  6", "40.58475700019999976575491018593311309814453125", "-73.8107339996000035853285226039588451385498046875", "1036820.50934999994933605194091796875", "152375.9620299999951384961605072021484375", "", "", "Queens", "" ]
+, [ 230, "geo_wus9-98d5-1.230", null, null, null, null, null, null, "QU", "251", "Limited Free", "TimeWarner", "Rockaway Beach", "Beach 90 Street  5", "40.584651000299999168419162742793560028076171875", "-73.8106689998000007335576810874044895172119140625", "1036838.64711000001989305019378662109375", "152337.38271100001293234527111053466796875", "", "", "Queens", "" ]
+, [ 231, "geo_wus9-98d5-1.231", null, null, null, null, null, null, "QU", "252", "Limited Free", "TimeWarner", "Bowne Park", "Track and Field - Northwest Corner of Park", "40.77119999989999854506095289252698421478271484375", "-73.8090999998999990339143550954759120941162109375", "1037126.336490000016056001186370849609375", "220303.35799899999983608722686767578125", "", "", "Queens", "" ]
+, [ 232, "geo_wus9-98d5-1.232", null, null, null, null, null, null, "QU", "253", "Limited Free", "TimeWarner", "Bowne Park", "Track and Field - Southwest Corner of Park", "40.769699999799996703586657531559467315673828125", "-73.8088000004999997827326296828687191009521484375", "1037210.624380000052042305469512939453125", "219757.0405219999956898391246795654296875", "", "", "Queens", "" ]
+, [ 233, "geo_wus9-98d5-1.233", null, null, null, null, null, null, "QU", "254", "Limited Free", "TimeWarner", "Kissena Park", "Basketball Court at 160th St and Booth Memorial Ave", "40.7418999997999975448692566715180873870849609375", "-73.80819999950000465105404146015644073486328125", "1037398.995720000006258487701416015625", "209628.984006999991834163665771484375", "", "", "Queens", "" ]
+, [ 234, "geo_wus9-98d5-1.234", null, null, null, null, null, null, "QU", "255", "Limited Free", "TimeWarner", "Bowne Park", "Track and Field - South of Park", "40.76959999969999870472747716121375560760498046875", "-73.8074999999000027628426323644816875457763671875", "1037570.791970000020228326320648193359375", "219721.3959090000134892761707305908203125", "", "", "Queens", "" ]
+, [ 235, "geo_wus9-98d5-1.235", null, null, null, null, null, null, "QU", "256", "Limited Free", "TimeWarner", "Kissena Park", "Northwest Entrance of Park", "40.7501999997000012854186934418976306915283203125", "-73.80720000060000529629178345203399658203125", "1037669.4456400000490248203277587890625", "212653.540622000000439584255218505859375", "", "", "Queens", "" ]
+, [ 236, "geo_wus9-98d5-1.236", null, null, null, null, null, null, "QU", "257", "Limited Free", "TimeWarner", "Bowne Park", "Track and Field - Southeast Corner of Park", "40.7694999996000007058682967908680438995361328125", "-73.8059999997000062421648181043565273284912109375", "1037986.358720000018365681171417236328125", "219685.87924800001201219856739044189453125", "", "", "Queens", "" ]
+, [ 237, "geo_wus9-98d5-1.237", null, null, null, null, null, null, "QU", "258", "Limited Free", "TimeWarner", "Bowne Park", "Playground", "40.7705000001000001930151483975350856781005859375", "-73.8055000003000003516717697493731975555419921875", "1038124.0451299999840557575225830078125", "220050.51893799999379552900791168212890625", "", "", "Queens", "" ]
+, [ 238, "geo_wus9-98d5-1.238", null, null, null, null, null, null, "QU", "259", "Limited Free", "TimeWarner", "Kissena Park", "Track and Field - North of Lake", "40.74999999980000353616560460068285465240478515625", "-73.805099999399999433080665767192840576171875", "1038251.4579300000332295894622802734375", "212581.96202499998616985976696014404296875", "", "", "Queens", "" ]
+, [ 239, "geo_wus9-98d5-1.239", null, null, null, null, null, null, "QU", "260", "Limited Free", "TimeWarner", "Kissena Park", "Golf Course near 164th St and Booth Memorial Ave", "40.74379999979999666948060621507465839385986328125", "-73.8041999999999944748196867294609546661376953125", "1038505.87179000000469386577606201171875", "210323.6650319999898783862590789794921875", "", "", "Queens", "" ]
+, [ 240, "geo_wus9-98d5-1.240", null, null, null, null, null, null, "QU", "261", "Limited Free", "TimeWarner", "Kissena Park", "Track and Field - Northwest Corner of Golf Course", "40.7458999997000006487724022008478641510009765625", "-73.8034000001999999085455783642828464508056640625", "1038725.832969999988563358783721923828125", "211089.25667699999758042395114898681640625", "", "", "Queens", "" ]
+, [ 241, "geo_wus9-98d5-1.241", null, null, null, null, null, null, "QU", "262", "Limited Free", "TimeWarner", "Kissena Park", "Track and Field - Southeast of Kissena Lake", "40.74729999979999917059103609062731266021728515625", "-73.8028999998000045934531954117119312286376953125", "1038863.2299999999813735485076904296875", "211599.63164100001449696719646453857421875", "", "", "Queens", "" ]
+, [ 242, "geo_wus9-98d5-1.242", null, null, null, null, null, null, "QU", "263", "Limited Free", "TimeWarner", "Kissena Park", "Playground", "40.7490999998999967601776006631553173065185546875", "-73.802700000100003308034501969814300537109375", "1038917.16951999999582767486572265625", "212255.55257299999357201159000396728515625", "", "", "Queens", "" ]
+, [ 243, "geo_wus9-98d5-1.243", null, null, null, null, null, null, "QU", "264", "Limited Free", "TimeWarner", "Rockaway Beach", "Beach 73 Street  1", "40.58647799999999961073626764118671417236328125", "-73.8001759998000039786347770132124423980712890625", "1039751.663259999942965805530548095703125", "153009.476839000009931623935699462890625", "", "", "Queens", "" ]
+, [ 244, "geo_wus9-98d5-1.244", null, null, null, null, null, null, "QU", "265", "Limited Free", "TimeWarner", "Rockaway Beach", "Beach 73 Street  2", "40.586484000100000457678106613457202911376953125", "-73.800090999800005420183879323303699493408203125", "1039775.26722000003792345523834228515625", "153011.7166640000068582594394683837890625", "", "", "Queens", "" ]
+, [ 245, "geo_wus9-98d5-1.245", null, null, null, null, null, null, "QU", "266", "Limited Free", "TimeWarner", "Baisley Pond Park", "Playground", "40.6745000003000001242980943061411380767822265625", "-73.789599999800003615746391005814075469970703125", "1042612.144749999977648258209228515625", "185085.03572000001440756022930145263671875", "", "", "Queens", "" ]
+, [ 246, "geo_wus9-98d5-1.246", null, null, null, null, null, null, "QU", "267", "Limited Free", "TimeWarner", "Baisley Pond Park", "Baseball field at 150th St and 133rd Ave", "40.6676000002999984417328960262238979339599609375", "-73.7894000003000058995894505642354488372802734375", "1042673.665619999985210597515106201171875", "182571.31010400000377558171749114990234375", "", "", "Queens", "" ]
+, [ 247, "geo_wus9-98d5-1.247", null, null, null, null, null, null, "QU", "268", "Limited Free", "TimeWarner", "Baisley Pond Park", "Tennis Courts at 150th St and 130th Ave", "40.66979999960000213832245208323001861572265625", "-73.78900000039999440559768117964267730712890625", "1042782.700839999946765601634979248046875", "183373.096886000013910233974456787109375", "", "", "Queens", "" ]
+, [ 248, "geo_wus9-98d5-1.248", null, null, null, null, null, null, "QU", "269", "Limited Free", "TimeWarner", "Baisley Pond Park", "Cricket Pitch at 150th St and Sutter Ave", "40.67139999989999665785944671370089054107666015625", "-73.7886000001000041947918361984193325042724609375", "1042892.25638999999500811100006103515625", "183956.2883049999945797026157379150390625", "", "", "Queens", "" ]
+, [ 249, "geo_wus9-98d5-1.249", null, null, null, null, null, null, "QU", "270", "Limited Free", "TimeWarner", "Baisley Pond Park", "Basketball Courts at Foch Blvd and 155th St", "40.68160000009999777148550492711365222930908203125", "-73.7883000000999942358248517848551273345947265625", "1042966.495089999982155859470367431640625", "187672.6309379999875091016292572021484375", "", "", "Queens", "" ]
+, [ 250, "geo_wus9-98d5-1.250", null, null, null, null, null, null, "QU", "271", "Limited Free", "TimeWarner", "Baisley Pond Park", "Tennis Courts 155th St and 118th Ave", "40.680500000199998567040893249213695526123046875", "-73.787499999900006741881952621042728424072265625", "1043189.35257999994792044162750244140625", "187272.40765700000338256359100341796875", "", "", "Queens", "" ]
+, [ 251, "geo_wus9-98d5-1.251", null, null, null, null, null, null, "QU", "272", "Limited Free", "TimeWarner", "Baisley Pond Park", "Benches near the lake", "40.67960000010000243264585151337087154388427734375", "-73.7875000005000032388124964199960231781005859375", "1043190.147860000026412308216094970703125", "186944.512644000002183020114898681640625", "", "", "Queens", "" ]
+, [ 252, "geo_wus9-98d5-1.252", null, null, null, null, null, null, "QU", "273", "Limited Free", "TimeWarner", "Baisley Pond Park", "Benches near flagpole", "40.6750999997999969082229654304683208465576171875", "-73.7873999993999944990719086490571498870849609375", "1043221.863669999991543591022491455078125", "185305.105489999987185001373291015625", "", "", "Queens", "" ]
+, [ 253, "geo_wus9-98d5-1.253", null, null, null, null, null, null, "QU", "274", "Limited Free", "TimeWarner", "Baisley Pond Park", "Basketball Courts at 116th Ave and Barron St", "40.68500000040000230683290283195674419403076171875", "-73.78719999989999678291496820747852325439453125", "1043268.578139999997802078723907470703125", "188912.0851520000142045319080352783203125", "", "", "Queens", "" ]
+, [ 254, "geo_wus9-98d5-1.254", null, null, null, null, null, null, "QU", "275", "Limited Free", "TimeWarner", "Baisley Pond Park", "Track and Field", "40.67809999960000055807540775276720523834228515625", "-73.7870999997000041048522689379751682281494140625", "1043302.42223999998532235622406005859375", "186398.29031099998974241316318511962890625", "", "", "Queens", "" ]
+, [ 255, "geo_wus9-98d5-1.255", null, null, null, null, null, null, "QU", "276", "Limited Free", "TimeWarner", "Baisley Pond Park", "Playground", "40.67269999970000071698450483381748199462890625", "-73.7868000003000048536705435253679752349853515625", "1043390.421729999943636357784271240234375", "184431.12396999998600222170352935791015625", "", "", "Queens", "" ]
+, [ 256, "geo_wus9-98d5-1.256", null, null, null, null, null, null, "QU", "277", "Limited Free", "TimeWarner", "Baisley Pond Park", "Baseball Field at 157th St between Foch Blvd and 116th Ave", "40.68460000009999788517234264872968196868896484375", "-73.7859000003000033984790206886827945709228515625", "1043629.4793300000019371509552001953125", "188767.23242300000856630504131317138671875", "", "", "Queens", "" ]
+, [ 257, "geo_wus9-98d5-1.257", null, null, null, null, null, null, "QU", "278", "Limited Free", "TimeWarner", "Baisley Pond Park", "Perimeter of park near Cricket Pitch adjacent to pond", "40.6731999997000031044080969877541065216064453125", "-73.78520000029999437174410559237003326416015625", "1043833.80469999997876584529876708984375", "184614.37196300001232884824275970458984375", "", "", "Queens", "" ]
+, [ 258, "geo_wus9-98d5-1.258", null, null, null, null, null, null, "QU", "279", "Limited Free", "TimeWarner", "Baisley Pond Park", "Track and Field", "40.6830000002999980779350153170526027679443359375", "-73.78480000019999351934529840946197509765625", "1043935.989870000048540532588958740234375", "188185.05543800001032650470733642578125", "", "", "Queens", "" ]
+, [ 259, "geo_wus9-98d5-1.259", null, null, null, null, null, null, "QU", "280", "Limited Free", "TimeWarner", "Baisley Pond Park", "Benches", "40.68080000009999963594964356161653995513916015625", "-73.7847000004999955535822664387524127960205078125", "1043965.694860000046901404857635498046875", "187383.60231700001168064773082733154296875", "", "", "Queens", "" ]
+, [ 260, "geo_wus9-98d5-1.260", null, null, null, null, null, null, "QU", "281", "Limited Free", "TimeWarner", "Baisley Pond Park", "East Entrance of the Park", "40.6792999999999977944753482006490230560302734375", "-73.7843999994999961700159474276006221771240234375", "1044050.2481700000353157520294189453125", "186837.3153520000050775706768035888671875", "", "", "Queens", "" ]
+, [ 261, "geo_wus9-98d5-1.261", null, null, null, null, null, null, "QU", "282", "Limited Free", "TimeWarner", "Baisley Pond Park", "Parking Lot", "40.6749000002999991920660249888896942138671875", "-73.784100000400002272726851515471935272216796875", "1044137.4087600000202655792236328125", "185234.47899000000325031578540802001953125", "", "", "Queens", "" ]
+, [ 262, "geo_wus9-98d5-1.262", null, null, null, null, null, null, "QU", "283", "Limited Free", "TimeWarner", "Baisley Pond Park", "North East of Pond", "40.6781999995999967723037116229534149169921875", "-73.7834000005999968152536894194781780242919921875", "1044328.604900000034831464290618896484375", "186437.2390519999898970127105712890625", "", "", "Queens", "" ]
+, [ 263, "geo_wus9-98d5-1.263", null, null, null, null, null, null, "QU", "284", "Limited Free", "TimeWarner", "Baisley Pond Park", "East of Baisley Pond", "40.676099999900003467701026238501071929931640625", "-73.782500000499993575431290082633495330810546875", "1044580.138189999968744814395904541015625", "185672.76978000000235624611377716064453125", "", "", "Queens", "" ]
+, [ 264, "geo_wus9-98d5-1.264", null, null, null, null, null, null, "QU", "285", "Limited Free", "TimeWarner", "Cunningham Park", "Baseball Field at Union Tpk and 194th St", "40.7306000001999990445256116800010204315185546875", "-73.7767000000000052750692702829837799072265625", "1046138.3224100000225007534027099609375", "205532.73334100001375190913677215576171875", "", "", "Queens", "" ]
+, [ 265, "geo_wus9-98d5-1.265", null, null, null, null, null, null, "QU", "286", "Limited Free", "TimeWarner", "Cunningham Park", "Playground at 193rd St and Aberdeen Rd", "40.72679999990000254683764069341123104095458984375", "-73.7758999999999929286786937154829502105712890625", "1046363.586389999953098595142364501953125", "204148.84568900000886060297489166259765625", "", "", "Queens", "" ]
+, [ 266, "geo_wus9-98d5-1.266", null, null, null, null, null, null, "QU", "287", "Limited Free", "TimeWarner", "Roy Wilkins Recreation Center", "Room B3", "40.68751300019999916912638582289218902587890625", "-73.7747860003999988975920132361352443695068359375", "1046709.151970000006258487701416015625", "189836.24898599999141879379749298095703125", "", "", "Queens", "" ]
+, [ 267, "geo_wus9-98d5-1.267", null, null, null, null, null, null, "QU", "288", "Limited Free", "TimeWarner", "Cunningham Park", "Near Parking Lot and Tennis Courts", "40.7299999998000004097775672562420368194580078125", "-73.7740000000000009094947017729282379150390625", "1046887.198530000052414834499359130859375", "205316.0543130000005476176738739013671875", "", "", "Queens", "" ]
+, [ 268, "geo_wus9-98d5-1.268", null, null, null, null, null, null, "QU", "289", "Limited Free", "TimeWarner", "Cunningham Park", "Near Parking Lot and Tennis Courts", "40.7298999997999970901219057850539684295654296875", "-73.7738999996000046621702495031058788299560546875", "1046915.0081899999640882015228271484375", "205279.692837000009603798389434814453125", "", "", "Queens", "" ]
+, [ 269, "geo_wus9-98d5-1.269", null, null, null, null, null, null, "QU", "290", "Limited Free", "TimeWarner", "Cunningham Park", "Near Parking Lot and Tennis Courts", "40.730099999700001944802352227270603179931640625", "-73.7738000004000014087068848311901092529296875", "1046942.535359999979846179485321044921875", "205352.63035500000114552676677703857421875", "", "", "Queens", "" ]
+, [ 270, "geo_wus9-98d5-1.270", null, null, null, null, null, null, "QU", "291", "Limited Free", "TimeWarner", "Roy Wilkins Recreation Center", "Room B4", "40.68813099980000203004237846471369266510009765625", "-73.773756000399998811190016567707061767578125", "1046994.22227000002749264240264892578125", "190062.13961099999141879379749298095703125", "", "", "Queens", "" ]
+, [ 271, "geo_wus9-98d5-1.271", null, null, null, null, null, null, "QU", "292", "Limited Free", "TimeWarner", "Cunningham Park", "Parking lot at Union Tpk and 196th Pl", "40.7313000003999974296675645746290683746337890625", "-73.7736999995999980228589265607297420501708984375", "1046969.12159999995492398738861083984375", "205789.89818099999683909118175506591796875", "", "", "Queens", "" ]
+, [ 272, "geo_wus9-98d5-1.272", null, null, null, null, null, null, "QU", "293", "Limited Free", "TimeWarner", "Cunningham Park", "Near Parking Lot and Tennis Courts", "40.7300999996000001601714757271111011505126953125", "-73.7737000002999963044203468598425388336181640625", "1046970.25086000002920627593994140625", "205352.70187700001406483352184295654296875", "", "", "Queens", "" ]
+, [ 273, "geo_wus9-98d5-1.273", null, null, null, null, null, null, "QU", "294", "Limited Free", "TimeWarner", "Roy Wilkins Recreation Center", "Room B1", "40.68860300019999698406536481343209743499755859375", "-73.773155000000002701199264265596866607666015625", "1047160.451920000021345913410186767578125", "190234.53362299999571405351161956787109375", "", "", "Queens", "" ]
+, [ 274, "geo_wus9-98d5-1.274", null, null, null, null, null, null, "QU", "295", "Limited Free", "TimeWarner", "Roy Wilkins Recreation Center", "Room B5", "40.6884889999000023408370907418429851531982421875", "-73.7730479995999957054664264433085918426513671875", "1047190.233690000022761523723602294921875", "190193.07701300000189803540706634521484375", "", "", "Queens", "" ]
+, [ 275, "geo_wus9-98d5-1.275", null, null, null, null, null, null, "QU", "296", "Limited Free", "TimeWarner", "Roy Wilkins Recreation Center", "Workout Room", "40.6875779999000002362663508392870426177978515625", "-73.7727259999000040124883526004850864410400390625", "1047280.394270000047981739044189453125", "189861.4057599999941885471343994140625", "", "", "Queens", "" ]
+, [ 276, "geo_wus9-98d5-1.276", null, null, null, null, null, null, "QU", "297", "Limited Free", "TimeWarner", "Roy Wilkins Recreation Center", "Center Office", "40.688343000000003257810021750628948211669921875", "-73.7721469995999967750321957282721996307373046875", "1047440.24433999997563660144805908203125", "190140.5338110000011511147022247314453125", "", "", "Queens", "" ]
+, [ 277, "geo_wus9-98d5-1.277", null, null, null, null, null, null, "QU", "298", "Limited Free", "TimeWarner", "Railroad Park", "West of the Park", "40.679499999900002649155794642865657806396484375", "-73.770700000000005047695594839751720428466796875", "1047849.9718700000084936618804931640625", "186919.83060700001078657805919647216796875", "", "", "Queens", "" ]
+, [ 278, "geo_wus9-98d5-1.278", null, null, null, null, null, null, "QU", "299", "Limited Free", "TimeWarner", "Roy Wilkins Recreation Center", "Parking Lot next to basketball fields", "40.68520199959999672500998713076114654541015625", "-73.7705160004999953571314108557999134063720703125", "1047895.564630000037141144275665283203125", "188997.36057200000504963099956512451171875", "", "", "Queens", "" ]
+, [ 279, "geo_wus9-98d5-1.279", null, null, null, null, null, null, "QU", "300", "Limited Free", "TimeWarner", "Roy Wilkins Recreation Center", "Maintenance Office", "40.6876109995999968305113725364208221435546875", "-73.770473000500004445711965672671794891357421875", "1047905.19059000001288950443267822265625", "189875.05763600001228041946887969970703125", "", "", "Queens", "" ]
+, [ 280, "geo_wus9-98d5-1.280", null, null, null, null, null, null, "QU", "301", "Limited Free", "TimeWarner", "Roy Wilkins Recreation Center", "West of the Roy Wilkins Recreation Center", "40.687200000399997179556521587073802947998046875", "-73.76989999959999977363622747361660003662109375", "1048064.495059999986551702022552490234375", "189725.73608400000375695526599884033203125", "", "", "Queens", "" ]
+, [ 281, "geo_wus9-98d5-1.281", null, null, null, null, null, null, "QU", "302", "Limited Free", "TimeWarner", "Roy Wilkins Recreation Center", "Rehearsal Room", "40.6871549995999970406046486459672451019287109375", "-73.7698719995999994125668308697640895843505859375", "1048072.3034500000067055225372314453125", "189709.3614449999877251684665679931640625", "", "", "Queens", "" ]
+, [ 282, "geo_wus9-98d5-1.282", null, null, null, null, null, null, "QU", "303", "Limited Free", "TimeWarner", "Roy Wilkins Recreation Center", "Center Office", "40.687317999800001189214526675641536712646484375", "-73.7697650006000031908115488477051258087158203125", "1048101.82175999996252357959747314453125", "189768.82490899998811073601245880126953125", "", "", "Queens", "" ]
+, [ 283, "geo_wus9-98d5-1.283", null, null, null, null, null, null, "QU", "304", "Limited Free", "TimeWarner", "Roy Wilkins Recreation Center", "Room B2", "40.6870409996000006458416464738547801971435546875", "-73.76961500030000706829014234244823455810546875", "1048143.68715999997220933437347412109375", "189668.01539899999625049531459808349609375", "", "", "Queens", "" ]
+, [ 284, "geo_wus9-98d5-1.284", null, null, null, null, null, null, "QU", "305", "Limited Free", "TimeWarner", "Roy Wilkins Recreation Center", "Family Waiting Area", "40.68629299989999736908430350013077259063720703125", "-73.7695930000000004156390787102282047271728515625", "1048150.505389999947510659694671630859375", "189395.5143030000035651028156280517578125", "", "", "Queens", "" ]
+, [ 285, "geo_wus9-98d5-1.285", null, null, null, null, null, null, "QU", "306", "Limited Free", "TimeWarner", "Roy Wilkins Recreation Center", "Theater Lounge", "40.6866999997999982952023856341838836669921875", "-73.7693999998000009554743883199989795684814453125", "1048203.64110999996773898601531982421875", "189543.93657900000107474625110626220703125", "", "", "Queens", "" ]
+, [ 286, "geo_wus9-98d5-1.286", null, null, null, null, null, null, "QU", "307", "Limited Free", "TimeWarner", "Roy Wilkins Recreation Center", "Gymnasium", "40.68731799999999765304892207495868206024169921875", "-73.769292999399993959741550497710704803466796875", "1048232.723069999949075281620025634765625", "189769.16939600001205690205097198486328125", "", "", "Queens", "" ]
+, [ 287, "geo_wus9-98d5-1.287", null, null, null, null, null, null, "QU", "308", "Limited Free", "TimeWarner", "Roy Wilkins Recreation Center", "Food Pantry, Patio", "40.6869760000000013633325579576194286346435546875", "-73.768864000299998906484688632190227508544921875", "1048352.02729999995790421962738037109375", "189644.88289899998926557600498199462890625", "", "", "Queens", "" ]
+, [ 288, "geo_wus9-98d5-1.288", null, null, null, null, null, null, "QU", "309", "Limited Free", "TimeWarner", "Railroad Park", "Track and Field - North of Park", "40.680000000299997964248177595436573028564453125", "-73.767799999900006469033542089164257049560546875", "1048653.84789000009186565876007080078125", "187104.1133740000077523291110992431640625", "", "", "Queens", "" ]
+, [ 289, "geo_wus9-98d5-1.289", null, null, null, null, null, null, "QU", "310", "Limited Free", "TimeWarner", "Railroad Park", "Southeast Entrance of Park", "40.67600000009999661187976016663014888763427734375", "-73.765400000200003205463872291147708892822265625", "1049323.42201000009663403034210205078125", "185648.5772439999855123460292816162109375", "", "", "Queens", "" ]
+, [ 290, "geo_wus9-98d5-1.290", null, null, null, null, null, null, "QU", "311", "Limited Free", "TimeWarner", "Sorrentino Recreation Center", "Jeter Reading Room", "40.6021000001999965434151818044483661651611328125", "-73.7516000005000051942261052317917346954345703125", "1053227.60810000007040798664093017578125", "158735.46440299999085254967212677001953125", "", "", "Queens", "" ]
+, [ 291, "geo_wus9-98d5-1.291", null, null, null, null, null, null, "QU", "312", "Limited Free", "TimeWarner", "Sorrentino Recreation Center", "The Hallway between the Art and Game Room", "40.60237000000000051613824325613677501678466796875", "-73.7514419994000007818613084964454174041748046875", "1053271.20381000009365379810333251953125", "158833.95633200000156648457050323486328125", "", "", "Queens", "" ]
+, [ 292, "geo_wus9-98d5-1.292", null, null, null, null, null, null, "QU", "313", "Limited Free", "TimeWarner", "Sorrentino Recreation Center", "Gymnasium", "40.60248199990000017578495317138731479644775390625", "-73.751332000100006780485273338854312896728515625", "1053301.6332100001163780689239501953125", "158874.8473269999958574771881103515625", "", "", "Queens", "" ]
+, [ 293, "geo_wus9-98d5-1.293", null, null, null, null, null, null, "QU", "314", "Limited Free", "TimeWarner", "Sorrentino Recreation Center", "Computer Resource Center", "40.60254799959999871816762606613337993621826171875", "-73.7513000004999952352591208182275295257568359375", "1053310.4507800000719726085662841796875", "158898.9178160000010393559932708740234375", "", "", "Queens", "" ]
+, [ 294, "geo_wus9-98d5-1.294", null, null, null, null, null, null, "QU", "315", "Limited Free", "TimeWarner", "Lost Battalion Hall Recreation Center", "After School Room", "40.73179199989999688114039599895477294921875", "-73.865528000099999417216167785227298736572265625", "1021518.71186999999918043613433837890625", "205916.74011899999459274113178253173828125", "", "", "Queens", "" ]
+, [ 295, "geo_wus9-98d5-1.295", null, null, null, null, null, null, "QU", "316", "Limited Free", "TimeWarner", "Lost Battalion Hall Recreation Center", "Dining Area", "40.73179199989999688114039599895477294921875", "-73.865528000099999417216167785227298736572265625", "1021518.71186999999918043613433837890625", "205916.74011899999459274113178253173828125", "", "", "Queens", "" ]
+, [ 296, "geo_wus9-98d5-1.296", null, null, null, null, null, null, "QU", "317", "Limited Free", "TimeWarner", "Lost Battalion Hall Recreation Center", "Near the Playground", "40.73179199989999688114039599895477294921875", "-73.865528000099999417216167785227298736572265625", "1021518.71186999999918043613433837890625", "205916.74011899999459274113178253173828125", "", "", "Queens", "" ]
+, [ 297, "geo_wus9-98d5-1.297", null, null, null, null, null, null, "QU", "318", "Limited Free", "TimeWarner", "Lost Battalion Hall Recreation Center", "Gymnasium", "40.73179199989999688114039599895477294921875", "-73.865528000099999417216167785227298736572265625", "1021518.71186999999918043613433837890625", "205916.74011899999459274113178253173828125", "", "", "Queens", "" ]
+, [ 298, "geo_wus9-98d5-1.298", null, null, null, null, null, null, "QU", "319", "Limited Free", "TimeWarner", "Lost Battalion Hall Recreation Center", "Near the 62nd Avenue and 93rd Street Intersection", "40.73179199989999688114039599895477294921875", "-73.865528000099999417216167785227298736572265625", "1021518.71186999999918043613433837890625", "205916.74011899999459274113178253173828125", "", "", "Queens", "" ]
+, [ 299, "geo_wus9-98d5-1.299", null, null, null, null, null, null, "BK", "320", "Limited Free", "TimeWarner", "Metropolitan Recreation Center", "Aerobics Room", "40.715005000399997925342177040874958038330078125", "-73.9603810002000017220780136995017528533935546875", "995233.116144999978132545948028564453125", "199774.595907000009901821613311767578125", "", "", "Brooklyn", "" ]
+, [ 300, "geo_wus9-98d5-1.300", null, null, null, null, null, null, "BX", "321", "Limited Free", "Cablevision", "St. James Park", "Lobby/east wing of recreation center", "40.67369499979999858396695344708859920501708984375", "-73.934934999700004709666245616972446441650390625", "1002298.394010000047273933887481689453125", "184728.3638609999907203018665313720703125", "", "", "Bronx", "" ]
+, [ 301, "geo_wus9-98d5-1.301", null, null, null, null, null, null, "BX", "322", "Limited Free", "Cablevision", "St. James Park", "Lobby/west wing of recreation center", "40.67369499979999858396695344708859920501708984375", "-73.934934999700004709666245616972446441650390625", "1002298.394010000047273933887481689453125", "184728.3638609999907203018665313720703125", "", "", "Bronx", "" ]
+, [ 302, "geo_wus9-98d5-1.302", null, null, null, null, null, null, "MN", "323", "Limited Free", "TimeWarner", "Jackie Robinson Park", "Computer Lab", "40.82480739959999738175611128099262714385986328125", "-73.94232443990000547273666597902774810791015625", "1000212.386700000031851232051849365234375", "239782.04115500001353211700916290283203125", "", "", "New York", "" ]
+, [ 303, "geo_wus9-98d5-1.303", null, null, null, null, null, null, "MN", "324", "Limited Free", "TimeWarner", "Jackie Robinson Park", "Maintenance Office", "40.82480739959999738175611128099262714385986328125", "-73.94232443990000547273666597902774810791015625", "1000212.386700000031851232051849365234375", "239782.04115500001353211700916290283203125", "", "", "New York", "" ]
+, [ 304, "geo_wus9-98d5-1.304", null, null, null, null, null, null, "MN", "325", "Limited Free", "TimeWarner", "Jackie Robinson Park", "Gymnasium", "40.82480739959999738175611128099262714385986328125", "-73.94232443990000547273666597902774810791015625", "1000212.386700000031851232051849365234375", "239782.04115500001353211700916290283203125", "", "", "New York", "" ]
+, [ 305, "geo_wus9-98d5-1.305", null, null, null, null, null, null, "MN", "326", "Limited Free", "TimeWarner", "Jackie Robinson Park", "Dugout", "40.82480739959999738175611128099262714385986328125", "-73.94232443990000547273666597902774810791015625", "1000212.386700000031851232051849365234375", "239782.04115500001353211700916290283203125", "", "", "New York", "" ]
+, [ 306, "geo_wus9-98d5-1.306", null, null, null, null, null, null, "MN", "327", "Limited Free", "TimeWarner", "Jackie Robinson Park", "Administrative Office", "40.82480739959999738175611128099262714385986328125", "-73.94232443990000547273666597902774810791015625", "1000212.386700000031851232051849365234375", "239782.04115500001353211700916290283203125", "", "", "New York", "" ]
+, [ 307, "geo_wus9-98d5-1.307", null, null, null, null, null, null, "MN", "328", "Limited Free", "TimeWarner", "Jackie Robinson Park", "Library", "40.82480739959999738175611128099262714385986328125", "-73.94232443990000547273666597902774810791015625", "1000212.386700000031851232051849365234375", "239782.04115500001353211700916290283203125", "", "", "New York", "" ]
+, [ 308, "geo_wus9-98d5-1.308", null, null, null, null, null, null, "MN", "329", "Limited Free", "TimeWarner", "Recreation Center 54", "Multi Purpose Room", "40.75000200000000205591277335770428180694580078125", "-73.9500000002999939852088573388755321502685546875", "998103.642227999982424080371856689453125", "212526.569091000012122094631195068359375", "", "", "New York", "" ]
+, [ 309, "geo_wus9-98d5-1.309", null, null, null, null, null, null, "MN", "330", "Limited Free", "TimeWarner", "Recreation Center 54", "Lobby", "40.75000200000000205591277335770428180694580078125", "-73.9500000002999939852088573388755321502685546875", "998103.642227999982424080371856689453125", "212526.569091000012122094631195068359375", "", "", "New York", "" ]
+ ]
+}
